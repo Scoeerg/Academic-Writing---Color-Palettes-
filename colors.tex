@@ -1,0 +1,2263 @@
+% see colorbrewer2.org
+% Generated from ColorBrewer schemes
+% github.com/axismaps/colorbrewer
+% use colors_to_tex.py 
+
+% Naming convention in this file:
+%   \definecolor{<n>_<scheme>_<type>[_<safety flags>]_<i>}{RGB}{r,g,b}
+%
+%   <n>          = number of classes/colors (usually 3–11)
+%   <scheme>     = short name (e.g. spectral, rdylgn, puor, blues, set2, ...)
+%   <type>       = sequential / diverging / qualitative
+%   <safety flags> = optional combination of:
+%                      blindSafe      -> colorblind-friendly
+%                      PrintSafe      -> safe for black-and-white printing
+%                      PhotoCopySafe  -> safe when photocopied
+%                      (based on ColorBrewer properties; not all schemes have all flags)
+%   <i>          = color position in the scheme (1 = first/low, ..., n = last/high)
+%
+% Scheme types:
+%   Sequential   : ordered progression (low -> high), single hue or gentle transition
+%                  (e.g. blues, greens, orRd, ylOrRd)
+%   Diverging    : two opposing directions with neutral middle point
+%                  (e.g. red = negative/low, blue/green = positive/high)
+%                  Common diverging schemes and their color paths:
+%                    Spectral   -> red-orange-yellow-green-blue-purple (rainbow-like)
+%                    RdYlGn     -> Red -> Yellow -> Green
+%                    RdYlBu     -> Red -> Yellow -> Blue
+%                    RdBu       -> Red -> Blue
+%                    PuOr       -> Purple -> Orange
+%                    PiYG       -> Pink/Magenta -> Yellow -> Green
+%                    BrBG       -> Brown -> Beige -> Blue-Green
+%                    PRGn       -> Purple -> Green
+%   Qualitative  : categorical / unordered (distinct hues, no progression)
+%                  (e.g. Set1, Set2, Accent, Paired, Dark2, Pastel1)
+%
+% Usage tips:
+%   - For diverging data (e.g. anomalies, change, positive/negative): prefer RdYlBu, RdYlGn, Spectral, PuOr
+%   - For ordered/sequential data: use sequential schemes (Blues, YlOrRd, etc.)
+%   - For categories/nominal data: use qualitative schemes
+%   - Always check colorblind safety if needed (many schemes include blindSafe flag)
+
+% --------------------- %
+% \definecolor{<n>_<scheme>_<type>[_<safety flags>]_<i>}{RGB}{r,g,b}
+% --------------------- %
+
+% 3-class div – spectral
+\definecolor{3_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{252,141,89}
+\definecolor{3_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,191}
+\definecolor{3_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{153,213,148}
+
+% 4-class div – spectral
+\definecolor{4_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{215,25,28}
+\definecolor{4_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,174,97}
+\definecolor{4_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{171,221,164}
+\definecolor{4_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{43,131,186}
+
+% 5-class div – spectral
+\definecolor{5_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{215,25,28}
+\definecolor{5_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,174,97}
+\definecolor{5_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{255,255,191}
+\definecolor{5_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{171,221,164}
+\definecolor{5_spectral_div_blindSafe_PrintSafe_PhotoCopySafe_5}{RGB}{43,131,186}
+
+% 6-class div – spectral
+\definecolor{6_spectral_div_1}{RGB}{213,62,79}
+\definecolor{6_spectral_div_2}{RGB}{252,141,89}
+\definecolor{6_spectral_div_3}{RGB}{254,224,139}
+\definecolor{6_spectral_div_4}{RGB}{230,245,152}
+\definecolor{6_spectral_div_5}{RGB}{153,213,148}
+\definecolor{6_spectral_div_6}{RGB}{50,136,189}
+
+% 7-class div – spectral
+\definecolor{7_spectral_div_1}{RGB}{213,62,79}
+\definecolor{7_spectral_div_2}{RGB}{252,141,89}
+\definecolor{7_spectral_div_3}{RGB}{254,224,139}
+\definecolor{7_spectral_div_4}{RGB}{255,255,191}
+\definecolor{7_spectral_div_5}{RGB}{230,245,152}
+\definecolor{7_spectral_div_6}{RGB}{153,213,148}
+\definecolor{7_spectral_div_7}{RGB}{50,136,189}
+
+% 8-class div – spectral
+\definecolor{8_spectral_div_1}{RGB}{213,62,79}
+\definecolor{8_spectral_div_2}{RGB}{244,109,67}
+\definecolor{8_spectral_div_3}{RGB}{253,174,97}
+\definecolor{8_spectral_div_4}{RGB}{254,224,139}
+\definecolor{8_spectral_div_5}{RGB}{230,245,152}
+\definecolor{8_spectral_div_6}{RGB}{171,221,164}
+\definecolor{8_spectral_div_7}{RGB}{102,194,165}
+\definecolor{8_spectral_div_8}{RGB}{50,136,189}
+
+% 9-class div – spectral
+\definecolor{9_spectral_div_1}{RGB}{213,62,79}
+\definecolor{9_spectral_div_2}{RGB}{244,109,67}
+\definecolor{9_spectral_div_3}{RGB}{253,174,97}
+\definecolor{9_spectral_div_4}{RGB}{254,224,139}
+\definecolor{9_spectral_div_5}{RGB}{255,255,191}
+\definecolor{9_spectral_div_6}{RGB}{230,245,152}
+\definecolor{9_spectral_div_7}{RGB}{171,221,164}
+\definecolor{9_spectral_div_8}{RGB}{102,194,165}
+\definecolor{9_spectral_div_9}{RGB}{50,136,189}
+
+% 10-class div – spectral
+\definecolor{10_spectral_div_1}{RGB}{158,1,66}
+\definecolor{10_spectral_div_2}{RGB}{213,62,79}
+\definecolor{10_spectral_div_3}{RGB}{244,109,67}
+\definecolor{10_spectral_div_4}{RGB}{253,174,97}
+\definecolor{10_spectral_div_5}{RGB}{254,224,139}
+\definecolor{10_spectral_div_6}{RGB}{230,245,152}
+\definecolor{10_spectral_div_7}{RGB}{171,221,164}
+\definecolor{10_spectral_div_8}{RGB}{102,194,165}
+\definecolor{10_spectral_div_9}{RGB}{50,136,189}
+\definecolor{10_spectral_div_10}{RGB}{94,79,162}
+
+% 11-class div – spectral
+\definecolor{11_spectral_div_1}{RGB}{158,1,66}
+\definecolor{11_spectral_div_2}{RGB}{213,62,79}
+\definecolor{11_spectral_div_3}{RGB}{244,109,67}
+\definecolor{11_spectral_div_4}{RGB}{253,174,97}
+\definecolor{11_spectral_div_5}{RGB}{254,224,139}
+\definecolor{11_spectral_div_6}{RGB}{255,255,191}
+\definecolor{11_spectral_div_7}{RGB}{230,245,152}
+\definecolor{11_spectral_div_8}{RGB}{171,221,164}
+\definecolor{11_spectral_div_9}{RGB}{102,194,165}
+\definecolor{11_spectral_div_10}{RGB}{50,136,189}
+\definecolor{11_spectral_div_11}{RGB}{94,79,162}
+
+% 3-class div – rdylgn
+\definecolor{3_rdylgn_div_blindSafe_PrintSafe_1}{RGB}{252,141,89}
+\definecolor{3_rdylgn_div_blindSafe_PrintSafe_2}{RGB}{255,255,191}
+\definecolor{3_rdylgn_div_blindSafe_PrintSafe_3}{RGB}{145,207,96}
+
+% 4-class div – rdylgn
+\definecolor{4_rdylgn_div_blindSafe_PrintSafe_1}{RGB}{215,25,28}
+\definecolor{4_rdylgn_div_blindSafe_PrintSafe_2}{RGB}{253,174,97}
+\definecolor{4_rdylgn_div_blindSafe_PrintSafe_3}{RGB}{166,217,106}
+\definecolor{4_rdylgn_div_blindSafe_PrintSafe_4}{RGB}{26,150,65}
+
+% 5-class div – rdylgn
+\definecolor{5_rdylgn_div_blindSafe_PrintSafe_1}{RGB}{215,25,28}
+\definecolor{5_rdylgn_div_blindSafe_PrintSafe_2}{RGB}{253,174,97}
+\definecolor{5_rdylgn_div_blindSafe_PrintSafe_3}{RGB}{255,255,191}
+\definecolor{5_rdylgn_div_blindSafe_PrintSafe_4}{RGB}{166,217,106}
+\definecolor{5_rdylgn_div_blindSafe_PrintSafe_5}{RGB}{26,150,65}
+
+% 6-class div – rdylgn
+\definecolor{6_rdylgn_div_PrintSafe_1}{RGB}{215,48,39}
+\definecolor{6_rdylgn_div_PrintSafe_2}{RGB}{252,141,89}
+\definecolor{6_rdylgn_div_PrintSafe_3}{RGB}{254,224,139}
+\definecolor{6_rdylgn_div_PrintSafe_4}{RGB}{217,239,139}
+\definecolor{6_rdylgn_div_PrintSafe_5}{RGB}{145,207,96}
+\definecolor{6_rdylgn_div_PrintSafe_6}{RGB}{26,152,80}
+
+% 7-class div – rdylgn
+\definecolor{7_rdylgn_div_1}{RGB}{215,48,39}
+\definecolor{7_rdylgn_div_2}{RGB}{252,141,89}
+\definecolor{7_rdylgn_div_3}{RGB}{254,224,139}
+\definecolor{7_rdylgn_div_4}{RGB}{255,255,191}
+\definecolor{7_rdylgn_div_5}{RGB}{217,239,139}
+\definecolor{7_rdylgn_div_6}{RGB}{145,207,96}
+\definecolor{7_rdylgn_div_7}{RGB}{26,152,80}
+
+% 8-class div – rdylgn
+\definecolor{8_rdylgn_div_1}{RGB}{215,48,39}
+\definecolor{8_rdylgn_div_2}{RGB}{244,109,67}
+\definecolor{8_rdylgn_div_3}{RGB}{253,174,97}
+\definecolor{8_rdylgn_div_4}{RGB}{254,224,139}
+\definecolor{8_rdylgn_div_5}{RGB}{217,239,139}
+\definecolor{8_rdylgn_div_6}{RGB}{166,217,106}
+\definecolor{8_rdylgn_div_7}{RGB}{102,189,99}
+\definecolor{8_rdylgn_div_8}{RGB}{26,152,80}
+
+% 9-class div – rdylgn
+\definecolor{9_rdylgn_div_1}{RGB}{215,48,39}
+\definecolor{9_rdylgn_div_2}{RGB}{244,109,67}
+\definecolor{9_rdylgn_div_3}{RGB}{253,174,97}
+\definecolor{9_rdylgn_div_4}{RGB}{254,224,139}
+\definecolor{9_rdylgn_div_5}{RGB}{255,255,191}
+\definecolor{9_rdylgn_div_6}{RGB}{217,239,139}
+\definecolor{9_rdylgn_div_7}{RGB}{166,217,106}
+\definecolor{9_rdylgn_div_8}{RGB}{102,189,99}
+\definecolor{9_rdylgn_div_9}{RGB}{26,152,80}
+
+% 10-class div – rdylgn
+\definecolor{10_rdylgn_div_1}{RGB}{165,0,38}
+\definecolor{10_rdylgn_div_2}{RGB}{215,48,39}
+\definecolor{10_rdylgn_div_3}{RGB}{244,109,67}
+\definecolor{10_rdylgn_div_4}{RGB}{253,174,97}
+\definecolor{10_rdylgn_div_5}{RGB}{254,224,139}
+\definecolor{10_rdylgn_div_6}{RGB}{217,239,139}
+\definecolor{10_rdylgn_div_7}{RGB}{166,217,106}
+\definecolor{10_rdylgn_div_8}{RGB}{102,189,99}
+\definecolor{10_rdylgn_div_9}{RGB}{26,152,80}
+\definecolor{10_rdylgn_div_10}{RGB}{0,104,55}
+
+% 11-class div – rdylgn
+\definecolor{11_rdylgn_div_1}{RGB}{165,0,38}
+\definecolor{11_rdylgn_div_2}{RGB}{215,48,39}
+\definecolor{11_rdylgn_div_3}{RGB}{244,109,67}
+\definecolor{11_rdylgn_div_4}{RGB}{253,174,97}
+\definecolor{11_rdylgn_div_5}{RGB}{254,224,139}
+\definecolor{11_rdylgn_div_6}{RGB}{255,255,191}
+\definecolor{11_rdylgn_div_7}{RGB}{217,239,139}
+\definecolor{11_rdylgn_div_8}{RGB}{166,217,106}
+\definecolor{11_rdylgn_div_9}{RGB}{102,189,99}
+\definecolor{11_rdylgn_div_10}{RGB}{26,152,80}
+\definecolor{11_rdylgn_div_11}{RGB}{0,104,55}
+
+% 3-class div – rdbu
+\definecolor{3_rdbu_div_blindSafe_PrintSafe_1}{RGB}{239,138,98}
+\definecolor{3_rdbu_div_blindSafe_PrintSafe_2}{RGB}{247,247,247}
+\definecolor{3_rdbu_div_blindSafe_PrintSafe_3}{RGB}{103,169,207}
+
+% 4-class div – rdbu
+\definecolor{4_rdbu_div_blindSafe_PrintSafe_1}{RGB}{202,0,32}
+\definecolor{4_rdbu_div_blindSafe_PrintSafe_2}{RGB}{244,165,130}
+\definecolor{4_rdbu_div_blindSafe_PrintSafe_3}{RGB}{146,197,222}
+\definecolor{4_rdbu_div_blindSafe_PrintSafe_4}{RGB}{5,113,176}
+
+% 5-class div – rdbu
+\definecolor{5_rdbu_div_blindSafe_PrintSafe_1}{RGB}{202,0,32}
+\definecolor{5_rdbu_div_blindSafe_PrintSafe_2}{RGB}{244,165,130}
+\definecolor{5_rdbu_div_blindSafe_PrintSafe_3}{RGB}{247,247,247}
+\definecolor{5_rdbu_div_blindSafe_PrintSafe_4}{RGB}{146,197,222}
+\definecolor{5_rdbu_div_blindSafe_PrintSafe_5}{RGB}{5,113,176}
+
+% 6-class div – rdbu
+\definecolor{6_rdbu_div_blindSafe_PrintSafe_1}{RGB}{178,24,43}
+\definecolor{6_rdbu_div_blindSafe_PrintSafe_2}{RGB}{239,138,98}
+\definecolor{6_rdbu_div_blindSafe_PrintSafe_3}{RGB}{253,219,199}
+\definecolor{6_rdbu_div_blindSafe_PrintSafe_4}{RGB}{209,229,240}
+\definecolor{6_rdbu_div_blindSafe_PrintSafe_5}{RGB}{103,169,207}
+\definecolor{6_rdbu_div_blindSafe_PrintSafe_6}{RGB}{33,102,172}
+
+% 7-class div – rdbu
+\definecolor{7_rdbu_div_blindSafe_1}{RGB}{178,24,43}
+\definecolor{7_rdbu_div_blindSafe_2}{RGB}{239,138,98}
+\definecolor{7_rdbu_div_blindSafe_3}{RGB}{253,219,199}
+\definecolor{7_rdbu_div_blindSafe_4}{RGB}{247,247,247}
+\definecolor{7_rdbu_div_blindSafe_5}{RGB}{209,229,240}
+\definecolor{7_rdbu_div_blindSafe_6}{RGB}{103,169,207}
+\definecolor{7_rdbu_div_blindSafe_7}{RGB}{33,102,172}
+
+% 8-class div – rdbu
+\definecolor{8_rdbu_div_blindSafe_1}{RGB}{178,24,43}
+\definecolor{8_rdbu_div_blindSafe_2}{RGB}{214,96,77}
+\definecolor{8_rdbu_div_blindSafe_3}{RGB}{244,165,130}
+\definecolor{8_rdbu_div_blindSafe_4}{RGB}{253,219,199}
+\definecolor{8_rdbu_div_blindSafe_5}{RGB}{209,229,240}
+\definecolor{8_rdbu_div_blindSafe_6}{RGB}{146,197,222}
+\definecolor{8_rdbu_div_blindSafe_7}{RGB}{67,147,195}
+\definecolor{8_rdbu_div_blindSafe_8}{RGB}{33,102,172}
+
+% 9-class div – rdbu
+\definecolor{9_rdbu_div_blindSafe_1}{RGB}{178,24,43}
+\definecolor{9_rdbu_div_blindSafe_2}{RGB}{214,96,77}
+\definecolor{9_rdbu_div_blindSafe_3}{RGB}{244,165,130}
+\definecolor{9_rdbu_div_blindSafe_4}{RGB}{253,219,199}
+\definecolor{9_rdbu_div_blindSafe_5}{RGB}{247,247,247}
+\definecolor{9_rdbu_div_blindSafe_6}{RGB}{209,229,240}
+\definecolor{9_rdbu_div_blindSafe_7}{RGB}{146,197,222}
+\definecolor{9_rdbu_div_blindSafe_8}{RGB}{67,147,195}
+\definecolor{9_rdbu_div_blindSafe_9}{RGB}{33,102,172}
+
+% 10-class div – rdbu
+\definecolor{10_rdbu_div_blindSafe_1}{RGB}{103,0,31}
+\definecolor{10_rdbu_div_blindSafe_2}{RGB}{178,24,43}
+\definecolor{10_rdbu_div_blindSafe_3}{RGB}{214,96,77}
+\definecolor{10_rdbu_div_blindSafe_4}{RGB}{244,165,130}
+\definecolor{10_rdbu_div_blindSafe_5}{RGB}{253,219,199}
+\definecolor{10_rdbu_div_blindSafe_6}{RGB}{209,229,240}
+\definecolor{10_rdbu_div_blindSafe_7}{RGB}{146,197,222}
+\definecolor{10_rdbu_div_blindSafe_8}{RGB}{67,147,195}
+\definecolor{10_rdbu_div_blindSafe_9}{RGB}{33,102,172}
+\definecolor{10_rdbu_div_blindSafe_10}{RGB}{5,48,97}
+
+% 11-class div – rdbu
+\definecolor{11_rdbu_div_blindSafe_1}{RGB}{103,0,31}
+\definecolor{11_rdbu_div_blindSafe_2}{RGB}{178,24,43}
+\definecolor{11_rdbu_div_blindSafe_3}{RGB}{214,96,77}
+\definecolor{11_rdbu_div_blindSafe_4}{RGB}{244,165,130}
+\definecolor{11_rdbu_div_blindSafe_5}{RGB}{253,219,199}
+\definecolor{11_rdbu_div_blindSafe_6}{RGB}{247,247,247}
+\definecolor{11_rdbu_div_blindSafe_7}{RGB}{209,229,240}
+\definecolor{11_rdbu_div_blindSafe_8}{RGB}{146,197,222}
+\definecolor{11_rdbu_div_blindSafe_9}{RGB}{67,147,195}
+\definecolor{11_rdbu_div_blindSafe_10}{RGB}{33,102,172}
+\definecolor{11_rdbu_div_blindSafe_11}{RGB}{5,48,97}
+
+% 3-class div – piyg
+\definecolor{3_piyg_div_blindSafe_PrintSafe_1}{RGB}{233,163,201}
+\definecolor{3_piyg_div_blindSafe_PrintSafe_2}{RGB}{247,247,247}
+\definecolor{3_piyg_div_blindSafe_PrintSafe_3}{RGB}{161,215,106}
+
+% 4-class div – piyg
+\definecolor{4_piyg_div_blindSafe_PrintSafe_1}{RGB}{208,28,139}
+\definecolor{4_piyg_div_blindSafe_PrintSafe_2}{RGB}{241,182,218}
+\definecolor{4_piyg_div_blindSafe_PrintSafe_3}{RGB}{184,225,134}
+\definecolor{4_piyg_div_blindSafe_PrintSafe_4}{RGB}{77,172,38}
+
+% 5-class div – piyg
+\definecolor{5_piyg_div_blindSafe_PrintSafe_1}{RGB}{208,28,139}
+\definecolor{5_piyg_div_blindSafe_PrintSafe_2}{RGB}{241,182,218}
+\definecolor{5_piyg_div_blindSafe_PrintSafe_3}{RGB}{247,247,247}
+\definecolor{5_piyg_div_blindSafe_PrintSafe_4}{RGB}{184,225,134}
+\definecolor{5_piyg_div_blindSafe_PrintSafe_5}{RGB}{77,172,38}
+
+% 6-class div – piyg
+\definecolor{6_piyg_div_blindSafe_1}{RGB}{197,27,125}
+\definecolor{6_piyg_div_blindSafe_2}{RGB}{233,163,201}
+\definecolor{6_piyg_div_blindSafe_3}{RGB}{253,224,239}
+\definecolor{6_piyg_div_blindSafe_4}{RGB}{230,245,208}
+\definecolor{6_piyg_div_blindSafe_5}{RGB}{161,215,106}
+\definecolor{6_piyg_div_blindSafe_6}{RGB}{77,146,33}
+
+% 7-class div – piyg
+\definecolor{7_piyg_div_blindSafe_1}{RGB}{197,27,125}
+\definecolor{7_piyg_div_blindSafe_2}{RGB}{233,163,201}
+\definecolor{7_piyg_div_blindSafe_3}{RGB}{253,224,239}
+\definecolor{7_piyg_div_blindSafe_4}{RGB}{247,247,247}
+\definecolor{7_piyg_div_blindSafe_5}{RGB}{230,245,208}
+\definecolor{7_piyg_div_blindSafe_6}{RGB}{161,215,106}
+\definecolor{7_piyg_div_blindSafe_7}{RGB}{77,146,33}
+
+% 8-class div – piyg
+\definecolor{8_piyg_div_blindSafe_1}{RGB}{197,27,125}
+\definecolor{8_piyg_div_blindSafe_2}{RGB}{222,119,174}
+\definecolor{8_piyg_div_blindSafe_3}{RGB}{241,182,218}
+\definecolor{8_piyg_div_blindSafe_4}{RGB}{253,224,239}
+\definecolor{8_piyg_div_blindSafe_5}{RGB}{230,245,208}
+\definecolor{8_piyg_div_blindSafe_6}{RGB}{184,225,134}
+\definecolor{8_piyg_div_blindSafe_7}{RGB}{127,188,65}
+\definecolor{8_piyg_div_blindSafe_8}{RGB}{77,146,33}
+
+% 9-class div – piyg
+\definecolor{9_piyg_div_blindSafe_1}{RGB}{197,27,125}
+\definecolor{9_piyg_div_blindSafe_2}{RGB}{222,119,174}
+\definecolor{9_piyg_div_blindSafe_3}{RGB}{241,182,218}
+\definecolor{9_piyg_div_blindSafe_4}{RGB}{253,224,239}
+\definecolor{9_piyg_div_blindSafe_5}{RGB}{247,247,247}
+\definecolor{9_piyg_div_blindSafe_6}{RGB}{230,245,208}
+\definecolor{9_piyg_div_blindSafe_7}{RGB}{184,225,134}
+\definecolor{9_piyg_div_blindSafe_8}{RGB}{127,188,65}
+\definecolor{9_piyg_div_blindSafe_9}{RGB}{77,146,33}
+
+% 10-class div – piyg
+\definecolor{10_piyg_div_blindSafe_1}{RGB}{142,1,82}
+\definecolor{10_piyg_div_blindSafe_2}{RGB}{197,27,125}
+\definecolor{10_piyg_div_blindSafe_3}{RGB}{222,119,174}
+\definecolor{10_piyg_div_blindSafe_4}{RGB}{241,182,218}
+\definecolor{10_piyg_div_blindSafe_5}{RGB}{253,224,239}
+\definecolor{10_piyg_div_blindSafe_6}{RGB}{230,245,208}
+\definecolor{10_piyg_div_blindSafe_7}{RGB}{184,225,134}
+\definecolor{10_piyg_div_blindSafe_8}{RGB}{127,188,65}
+\definecolor{10_piyg_div_blindSafe_9}{RGB}{77,146,33}
+\definecolor{10_piyg_div_blindSafe_10}{RGB}{39,100,25}
+
+% 11-class div – piyg
+\definecolor{11_piyg_div_blindSafe_1}{RGB}{142,1,82}
+\definecolor{11_piyg_div_blindSafe_2}{RGB}{197,27,125}
+\definecolor{11_piyg_div_blindSafe_3}{RGB}{222,119,174}
+\definecolor{11_piyg_div_blindSafe_4}{RGB}{241,182,218}
+\definecolor{11_piyg_div_blindSafe_5}{RGB}{253,224,239}
+\definecolor{11_piyg_div_blindSafe_6}{RGB}{247,247,247}
+\definecolor{11_piyg_div_blindSafe_7}{RGB}{230,245,208}
+\definecolor{11_piyg_div_blindSafe_8}{RGB}{184,225,134}
+\definecolor{11_piyg_div_blindSafe_9}{RGB}{127,188,65}
+\definecolor{11_piyg_div_blindSafe_10}{RGB}{77,146,33}
+\definecolor{11_piyg_div_blindSafe_11}{RGB}{39,100,25}
+
+% 3-class div – prgn
+\definecolor{3_prgn_div_blindSafe_PrintSafe_1}{RGB}{175,141,195}
+\definecolor{3_prgn_div_blindSafe_PrintSafe_2}{RGB}{247,247,247}
+\definecolor{3_prgn_div_blindSafe_PrintSafe_3}{RGB}{127,191,123}
+
+% 4-class div – prgn
+\definecolor{4_prgn_div_blindSafe_PrintSafe_1}{RGB}{123,50,148}
+\definecolor{4_prgn_div_blindSafe_PrintSafe_2}{RGB}{194,165,207}
+\definecolor{4_prgn_div_blindSafe_PrintSafe_3}{RGB}{166,219,160}
+\definecolor{4_prgn_div_blindSafe_PrintSafe_4}{RGB}{0,136,55}
+
+% 5-class div – prgn
+\definecolor{5_prgn_div_blindSafe_PrintSafe_1}{RGB}{123,50,148}
+\definecolor{5_prgn_div_blindSafe_PrintSafe_2}{RGB}{194,165,207}
+\definecolor{5_prgn_div_blindSafe_PrintSafe_3}{RGB}{247,247,247}
+\definecolor{5_prgn_div_blindSafe_PrintSafe_4}{RGB}{166,219,160}
+\definecolor{5_prgn_div_blindSafe_PrintSafe_5}{RGB}{0,136,55}
+
+% 6-class div – prgn
+\definecolor{6_prgn_div_blindSafe_PrintSafe_1}{RGB}{118,42,131}
+\definecolor{6_prgn_div_blindSafe_PrintSafe_2}{RGB}{175,141,195}
+\definecolor{6_prgn_div_blindSafe_PrintSafe_3}{RGB}{231,212,232}
+\definecolor{6_prgn_div_blindSafe_PrintSafe_4}{RGB}{217,240,211}
+\definecolor{6_prgn_div_blindSafe_PrintSafe_5}{RGB}{127,191,123}
+\definecolor{6_prgn_div_blindSafe_PrintSafe_6}{RGB}{27,120,55}
+
+% 7-class div – prgn
+\definecolor{7_prgn_div_blindSafe_1}{RGB}{118,42,131}
+\definecolor{7_prgn_div_blindSafe_2}{RGB}{175,141,195}
+\definecolor{7_prgn_div_blindSafe_3}{RGB}{231,212,232}
+\definecolor{7_prgn_div_blindSafe_4}{RGB}{247,247,247}
+\definecolor{7_prgn_div_blindSafe_5}{RGB}{217,240,211}
+\definecolor{7_prgn_div_blindSafe_6}{RGB}{127,191,123}
+\definecolor{7_prgn_div_blindSafe_7}{RGB}{27,120,55}
+
+% 8-class div – prgn
+\definecolor{8_prgn_div_blindSafe_1}{RGB}{118,42,131}
+\definecolor{8_prgn_div_blindSafe_2}{RGB}{153,112,171}
+\definecolor{8_prgn_div_blindSafe_3}{RGB}{194,165,207}
+\definecolor{8_prgn_div_blindSafe_4}{RGB}{231,212,232}
+\definecolor{8_prgn_div_blindSafe_5}{RGB}{217,240,211}
+\definecolor{8_prgn_div_blindSafe_6}{RGB}{166,219,160}
+\definecolor{8_prgn_div_blindSafe_7}{RGB}{90,174,97}
+\definecolor{8_prgn_div_blindSafe_8}{RGB}{27,120,55}
+
+% 9-class div – prgn
+\definecolor{9_prgn_div_blindSafe_1}{RGB}{118,42,131}
+\definecolor{9_prgn_div_blindSafe_2}{RGB}{153,112,171}
+\definecolor{9_prgn_div_blindSafe_3}{RGB}{194,165,207}
+\definecolor{9_prgn_div_blindSafe_4}{RGB}{231,212,232}
+\definecolor{9_prgn_div_blindSafe_5}{RGB}{247,247,247}
+\definecolor{9_prgn_div_blindSafe_6}{RGB}{217,240,211}
+\definecolor{9_prgn_div_blindSafe_7}{RGB}{166,219,160}
+\definecolor{9_prgn_div_blindSafe_8}{RGB}{90,174,97}
+\definecolor{9_prgn_div_blindSafe_9}{RGB}{27,120,55}
+
+% 10-class div – prgn
+\definecolor{10_prgn_div_blindSafe_1}{RGB}{64,0,75}
+\definecolor{10_prgn_div_blindSafe_2}{RGB}{118,42,131}
+\definecolor{10_prgn_div_blindSafe_3}{RGB}{153,112,171}
+\definecolor{10_prgn_div_blindSafe_4}{RGB}{194,165,207}
+\definecolor{10_prgn_div_blindSafe_5}{RGB}{231,212,232}
+\definecolor{10_prgn_div_blindSafe_6}{RGB}{217,240,211}
+\definecolor{10_prgn_div_blindSafe_7}{RGB}{166,219,160}
+\definecolor{10_prgn_div_blindSafe_8}{RGB}{90,174,97}
+\definecolor{10_prgn_div_blindSafe_9}{RGB}{27,120,55}
+\definecolor{10_prgn_div_blindSafe_10}{RGB}{0,68,27}
+
+% 11-class div – prgn
+\definecolor{11_prgn_div_blindSafe_1}{RGB}{64,0,75}
+\definecolor{11_prgn_div_blindSafe_2}{RGB}{118,42,131}
+\definecolor{11_prgn_div_blindSafe_3}{RGB}{153,112,171}
+\definecolor{11_prgn_div_blindSafe_4}{RGB}{194,165,207}
+\definecolor{11_prgn_div_blindSafe_5}{RGB}{231,212,232}
+\definecolor{11_prgn_div_blindSafe_6}{RGB}{247,247,247}
+\definecolor{11_prgn_div_blindSafe_7}{RGB}{217,240,211}
+\definecolor{11_prgn_div_blindSafe_8}{RGB}{166,219,160}
+\definecolor{11_prgn_div_blindSafe_9}{RGB}{90,174,97}
+\definecolor{11_prgn_div_blindSafe_10}{RGB}{27,120,55}
+\definecolor{11_prgn_div_blindSafe_11}{RGB}{0,68,27}
+
+% 3-class div – rdylbu
+\definecolor{3_rdylbu_div_blindSafe_PrintSafe_1}{RGB}{252,141,89}
+\definecolor{3_rdylbu_div_blindSafe_PrintSafe_2}{RGB}{255,255,191}
+\definecolor{3_rdylbu_div_blindSafe_PrintSafe_3}{RGB}{145,191,219}
+
+% 4-class div – rdylbu
+\definecolor{4_rdylbu_div_blindSafe_PrintSafe_1}{RGB}{215,25,28}
+\definecolor{4_rdylbu_div_blindSafe_PrintSafe_2}{RGB}{253,174,97}
+\definecolor{4_rdylbu_div_blindSafe_PrintSafe_3}{RGB}{171,217,233}
+\definecolor{4_rdylbu_div_blindSafe_PrintSafe_4}{RGB}{44,123,182}
+
+% 5-class div – rdylbu
+\definecolor{5_rdylbu_div_blindSafe_PrintSafe_1}{RGB}{215,25,28}
+\definecolor{5_rdylbu_div_blindSafe_PrintSafe_2}{RGB}{253,174,97}
+\definecolor{5_rdylbu_div_blindSafe_PrintSafe_3}{RGB}{255,255,191}
+\definecolor{5_rdylbu_div_blindSafe_PrintSafe_4}{RGB}{171,217,233}
+\definecolor{5_rdylbu_div_blindSafe_PrintSafe_5}{RGB}{44,123,182}
+
+% 6-class div – rdylbu
+\definecolor{6_rdylbu_div_blindSafe_PrintSafe_1}{RGB}{215,48,39}
+\definecolor{6_rdylbu_div_blindSafe_PrintSafe_2}{RGB}{252,141,89}
+\definecolor{6_rdylbu_div_blindSafe_PrintSafe_3}{RGB}{254,224,144}
+\definecolor{6_rdylbu_div_blindSafe_PrintSafe_4}{RGB}{224,243,248}
+\definecolor{6_rdylbu_div_blindSafe_PrintSafe_5}{RGB}{145,191,219}
+\definecolor{6_rdylbu_div_blindSafe_PrintSafe_6}{RGB}{69,117,180}
+
+% 7-class div – rdylbu
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_1}{RGB}{215,48,39}
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_2}{RGB}{252,141,89}
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_3}{RGB}{254,224,144}
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_4}{RGB}{255,255,191}
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_5}{RGB}{224,243,248}
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_6}{RGB}{145,191,219}
+\definecolor{7_rdylbu_div_blindSafe_PrintSafe_7}{RGB}{69,117,180}
+
+% 8-class div – rdylbu
+\definecolor{8_rdylbu_div_blindSafe_1}{RGB}{215,48,39}
+\definecolor{8_rdylbu_div_blindSafe_2}{RGB}{244,109,67}
+\definecolor{8_rdylbu_div_blindSafe_3}{RGB}{253,174,97}
+\definecolor{8_rdylbu_div_blindSafe_4}{RGB}{254,224,144}
+\definecolor{8_rdylbu_div_blindSafe_5}{RGB}{224,243,248}
+\definecolor{8_rdylbu_div_blindSafe_6}{RGB}{171,217,233}
+\definecolor{8_rdylbu_div_blindSafe_7}{RGB}{116,173,209}
+\definecolor{8_rdylbu_div_blindSafe_8}{RGB}{69,117,180}
+
+% 9-class div – rdylbu
+\definecolor{9_rdylbu_div_blindSafe_1}{RGB}{215,48,39}
+\definecolor{9_rdylbu_div_blindSafe_2}{RGB}{244,109,67}
+\definecolor{9_rdylbu_div_blindSafe_3}{RGB}{253,174,97}
+\definecolor{9_rdylbu_div_blindSafe_4}{RGB}{254,224,144}
+\definecolor{9_rdylbu_div_blindSafe_5}{RGB}{255,255,191}
+\definecolor{9_rdylbu_div_blindSafe_6}{RGB}{224,243,248}
+\definecolor{9_rdylbu_div_blindSafe_7}{RGB}{171,217,233}
+\definecolor{9_rdylbu_div_blindSafe_8}{RGB}{116,173,209}
+\definecolor{9_rdylbu_div_blindSafe_9}{RGB}{69,117,180}
+
+% 10-class div – rdylbu
+\definecolor{10_rdylbu_div_blindSafe_1}{RGB}{165,0,38}
+\definecolor{10_rdylbu_div_blindSafe_2}{RGB}{215,48,39}
+\definecolor{10_rdylbu_div_blindSafe_3}{RGB}{244,109,67}
+\definecolor{10_rdylbu_div_blindSafe_4}{RGB}{253,174,97}
+\definecolor{10_rdylbu_div_blindSafe_5}{RGB}{254,224,144}
+\definecolor{10_rdylbu_div_blindSafe_6}{RGB}{224,243,248}
+\definecolor{10_rdylbu_div_blindSafe_7}{RGB}{171,217,233}
+\definecolor{10_rdylbu_div_blindSafe_8}{RGB}{116,173,209}
+\definecolor{10_rdylbu_div_blindSafe_9}{RGB}{69,117,180}
+\definecolor{10_rdylbu_div_blindSafe_10}{RGB}{49,54,149}
+
+% 11-class div – rdylbu
+\definecolor{11_rdylbu_div_blindSafe_1}{RGB}{165,0,38}
+\definecolor{11_rdylbu_div_blindSafe_2}{RGB}{215,48,39}
+\definecolor{11_rdylbu_div_blindSafe_3}{RGB}{244,109,67}
+\definecolor{11_rdylbu_div_blindSafe_4}{RGB}{253,174,97}
+\definecolor{11_rdylbu_div_blindSafe_5}{RGB}{254,224,144}
+\definecolor{11_rdylbu_div_blindSafe_6}{RGB}{255,255,191}
+\definecolor{11_rdylbu_div_blindSafe_7}{RGB}{224,243,248}
+\definecolor{11_rdylbu_div_blindSafe_8}{RGB}{171,217,233}
+\definecolor{11_rdylbu_div_blindSafe_9}{RGB}{116,173,209}
+\definecolor{11_rdylbu_div_blindSafe_10}{RGB}{69,117,180}
+\definecolor{11_rdylbu_div_blindSafe_11}{RGB}{49,54,149}
+
+% 3-class div – brbg
+\definecolor{3_brbg_div_blindSafe_PrintSafe_1}{RGB}{216,179,101}
+\definecolor{3_brbg_div_blindSafe_PrintSafe_2}{RGB}{245,245,245}
+\definecolor{3_brbg_div_blindSafe_PrintSafe_3}{RGB}{90,180,172}
+
+% 4-class div – brbg
+\definecolor{4_brbg_div_blindSafe_PrintSafe_1}{RGB}{166,97,26}
+\definecolor{4_brbg_div_blindSafe_PrintSafe_2}{RGB}{223,194,125}
+\definecolor{4_brbg_div_blindSafe_PrintSafe_3}{RGB}{128,205,193}
+\definecolor{4_brbg_div_blindSafe_PrintSafe_4}{RGB}{1,133,113}
+
+% 5-class div – brbg
+\definecolor{5_brbg_div_blindSafe_PrintSafe_1}{RGB}{166,97,26}
+\definecolor{5_brbg_div_blindSafe_PrintSafe_2}{RGB}{223,194,125}
+\definecolor{5_brbg_div_blindSafe_PrintSafe_3}{RGB}{245,245,245}
+\definecolor{5_brbg_div_blindSafe_PrintSafe_4}{RGB}{128,205,193}
+\definecolor{5_brbg_div_blindSafe_PrintSafe_5}{RGB}{1,133,113}
+
+% 6-class div – brbg
+\definecolor{6_brbg_div_blindSafe_PrintSafe_1}{RGB}{140,81,10}
+\definecolor{6_brbg_div_blindSafe_PrintSafe_2}{RGB}{216,179,101}
+\definecolor{6_brbg_div_blindSafe_PrintSafe_3}{RGB}{246,232,195}
+\definecolor{6_brbg_div_blindSafe_PrintSafe_4}{RGB}{199,234,229}
+\definecolor{6_brbg_div_blindSafe_PrintSafe_5}{RGB}{90,180,172}
+\definecolor{6_brbg_div_blindSafe_PrintSafe_6}{RGB}{1,102,94}
+
+% 7-class div – brbg
+\definecolor{7_brbg_div_blindSafe_1}{RGB}{140,81,10}
+\definecolor{7_brbg_div_blindSafe_2}{RGB}{216,179,101}
+\definecolor{7_brbg_div_blindSafe_3}{RGB}{246,232,195}
+\definecolor{7_brbg_div_blindSafe_4}{RGB}{245,245,245}
+\definecolor{7_brbg_div_blindSafe_5}{RGB}{199,234,229}
+\definecolor{7_brbg_div_blindSafe_6}{RGB}{90,180,172}
+\definecolor{7_brbg_div_blindSafe_7}{RGB}{1,102,94}
+
+% 8-class div – brbg
+\definecolor{8_brbg_div_blindSafe_1}{RGB}{140,81,10}
+\definecolor{8_brbg_div_blindSafe_2}{RGB}{191,129,45}
+\definecolor{8_brbg_div_blindSafe_3}{RGB}{223,194,125}
+\definecolor{8_brbg_div_blindSafe_4}{RGB}{246,232,195}
+\definecolor{8_brbg_div_blindSafe_5}{RGB}{199,234,229}
+\definecolor{8_brbg_div_blindSafe_6}{RGB}{128,205,193}
+\definecolor{8_brbg_div_blindSafe_7}{RGB}{53,151,143}
+\definecolor{8_brbg_div_blindSafe_8}{RGB}{1,102,94}
+
+% 9-class div – brbg
+\definecolor{9_brbg_div_blindSafe_1}{RGB}{140,81,10}
+\definecolor{9_brbg_div_blindSafe_2}{RGB}{191,129,45}
+\definecolor{9_brbg_div_blindSafe_3}{RGB}{223,194,125}
+\definecolor{9_brbg_div_blindSafe_4}{RGB}{246,232,195}
+\definecolor{9_brbg_div_blindSafe_5}{RGB}{245,245,245}
+\definecolor{9_brbg_div_blindSafe_6}{RGB}{199,234,229}
+\definecolor{9_brbg_div_blindSafe_7}{RGB}{128,205,193}
+\definecolor{9_brbg_div_blindSafe_8}{RGB}{53,151,143}
+\definecolor{9_brbg_div_blindSafe_9}{RGB}{1,102,94}
+
+% 10-class div – brbg
+\definecolor{10_brbg_div_blindSafe_1}{RGB}{84,48,5}
+\definecolor{10_brbg_div_blindSafe_2}{RGB}{140,81,10}
+\definecolor{10_brbg_div_blindSafe_3}{RGB}{191,129,45}
+\definecolor{10_brbg_div_blindSafe_4}{RGB}{223,194,125}
+\definecolor{10_brbg_div_blindSafe_5}{RGB}{246,232,195}
+\definecolor{10_brbg_div_blindSafe_6}{RGB}{199,234,229}
+\definecolor{10_brbg_div_blindSafe_7}{RGB}{128,205,193}
+\definecolor{10_brbg_div_blindSafe_8}{RGB}{53,151,143}
+\definecolor{10_brbg_div_blindSafe_9}{RGB}{1,102,94}
+\definecolor{10_brbg_div_blindSafe_10}{RGB}{0,60,48}
+
+% 11-class div – brbg
+\definecolor{11_brbg_div_blindSafe_1}{RGB}{84,48,5}
+\definecolor{11_brbg_div_blindSafe_2}{RGB}{140,81,10}
+\definecolor{11_brbg_div_blindSafe_3}{RGB}{191,129,45}
+\definecolor{11_brbg_div_blindSafe_4}{RGB}{223,194,125}
+\definecolor{11_brbg_div_blindSafe_5}{RGB}{246,232,195}
+\definecolor{11_brbg_div_blindSafe_6}{RGB}{245,245,245}
+\definecolor{11_brbg_div_blindSafe_7}{RGB}{199,234,229}
+\definecolor{11_brbg_div_blindSafe_8}{RGB}{128,205,193}
+\definecolor{11_brbg_div_blindSafe_9}{RGB}{53,151,143}
+\definecolor{11_brbg_div_blindSafe_10}{RGB}{1,102,94}
+\definecolor{11_brbg_div_blindSafe_11}{RGB}{0,60,48}
+
+% 3-class div – rdgy
+\definecolor{3_rdgy_div_blindSafe_PrintSafe_1}{RGB}{239,138,98}
+\definecolor{3_rdgy_div_blindSafe_PrintSafe_2}{RGB}{255,255,255}
+\definecolor{3_rdgy_div_blindSafe_PrintSafe_3}{RGB}{153,153,153}
+
+% 4-class div – rdgy
+\definecolor{4_rdgy_div_blindSafe_PrintSafe_1}{RGB}{202,0,32}
+\definecolor{4_rdgy_div_blindSafe_PrintSafe_2}{RGB}{244,165,130}
+\definecolor{4_rdgy_div_blindSafe_PrintSafe_3}{RGB}{186,186,186}
+\definecolor{4_rdgy_div_blindSafe_PrintSafe_4}{RGB}{64,64,64}
+
+% 5-class div – rdgy
+\definecolor{5_rdgy_div_blindSafe_PrintSafe_1}{RGB}{202,0,32}
+\definecolor{5_rdgy_div_blindSafe_PrintSafe_2}{RGB}{244,165,130}
+\definecolor{5_rdgy_div_blindSafe_PrintSafe_3}{RGB}{255,255,255}
+\definecolor{5_rdgy_div_blindSafe_PrintSafe_4}{RGB}{186,186,186}
+\definecolor{5_rdgy_div_blindSafe_PrintSafe_5}{RGB}{64,64,64}
+
+% 6-class div – rdgy
+\definecolor{6_rdgy_div_blindSafe_PrintSafe_1}{RGB}{178,24,43}
+\definecolor{6_rdgy_div_blindSafe_PrintSafe_2}{RGB}{239,138,98}
+\definecolor{6_rdgy_div_blindSafe_PrintSafe_3}{RGB}{253,219,199}
+\definecolor{6_rdgy_div_blindSafe_PrintSafe_4}{RGB}{224,224,224}
+\definecolor{6_rdgy_div_blindSafe_PrintSafe_5}{RGB}{153,153,153}
+\definecolor{6_rdgy_div_blindSafe_PrintSafe_6}{RGB}{77,77,77}
+
+% 7-class div – rdgy
+\definecolor{7_rdgy_div_blindSafe_1}{RGB}{178,24,43}
+\definecolor{7_rdgy_div_blindSafe_2}{RGB}{239,138,98}
+\definecolor{7_rdgy_div_blindSafe_3}{RGB}{253,219,199}
+\definecolor{7_rdgy_div_blindSafe_4}{RGB}{255,255,255}
+\definecolor{7_rdgy_div_blindSafe_5}{RGB}{224,224,224}
+\definecolor{7_rdgy_div_blindSafe_6}{RGB}{153,153,153}
+\definecolor{7_rdgy_div_blindSafe_7}{RGB}{77,77,77}
+
+% 8-class div – rdgy
+\definecolor{8_rdgy_div_blindSafe_1}{RGB}{178,24,43}
+\definecolor{8_rdgy_div_blindSafe_2}{RGB}{214,96,77}
+\definecolor{8_rdgy_div_blindSafe_3}{RGB}{244,165,130}
+\definecolor{8_rdgy_div_blindSafe_4}{RGB}{253,219,199}
+\definecolor{8_rdgy_div_blindSafe_5}{RGB}{224,224,224}
+\definecolor{8_rdgy_div_blindSafe_6}{RGB}{186,186,186}
+\definecolor{8_rdgy_div_blindSafe_7}{RGB}{135,135,135}
+\definecolor{8_rdgy_div_blindSafe_8}{RGB}{77,77,77}
+
+% 9-class div – rdgy
+\definecolor{9_rdgy_div_blindSafe_1}{RGB}{178,24,43}
+\definecolor{9_rdgy_div_blindSafe_2}{RGB}{214,96,77}
+\definecolor{9_rdgy_div_blindSafe_3}{RGB}{244,165,130}
+\definecolor{9_rdgy_div_blindSafe_4}{RGB}{253,219,199}
+\definecolor{9_rdgy_div_blindSafe_5}{RGB}{255,255,255}
+\definecolor{9_rdgy_div_blindSafe_6}{RGB}{224,224,224}
+\definecolor{9_rdgy_div_blindSafe_7}{RGB}{186,186,186}
+\definecolor{9_rdgy_div_blindSafe_8}{RGB}{135,135,135}
+\definecolor{9_rdgy_div_blindSafe_9}{RGB}{77,77,77}
+
+% 10-class div – rdgy
+\definecolor{10_rdgy_div_blindSafe_1}{RGB}{103,0,31}
+\definecolor{10_rdgy_div_blindSafe_2}{RGB}{178,24,43}
+\definecolor{10_rdgy_div_blindSafe_3}{RGB}{214,96,77}
+\definecolor{10_rdgy_div_blindSafe_4}{RGB}{244,165,130}
+\definecolor{10_rdgy_div_blindSafe_5}{RGB}{253,219,199}
+\definecolor{10_rdgy_div_blindSafe_6}{RGB}{224,224,224}
+\definecolor{10_rdgy_div_blindSafe_7}{RGB}{186,186,186}
+\definecolor{10_rdgy_div_blindSafe_8}{RGB}{135,135,135}
+\definecolor{10_rdgy_div_blindSafe_9}{RGB}{77,77,77}
+\definecolor{10_rdgy_div_blindSafe_10}{RGB}{26,26,26}
+
+% 11-class div – rdgy
+\definecolor{11_rdgy_div_blindSafe_1}{RGB}{103,0,31}
+\definecolor{11_rdgy_div_blindSafe_2}{RGB}{178,24,43}
+\definecolor{11_rdgy_div_blindSafe_3}{RGB}{214,96,77}
+\definecolor{11_rdgy_div_blindSafe_4}{RGB}{244,165,130}
+\definecolor{11_rdgy_div_blindSafe_5}{RGB}{253,219,199}
+\definecolor{11_rdgy_div_blindSafe_6}{RGB}{255,255,255}
+\definecolor{11_rdgy_div_blindSafe_7}{RGB}{224,224,224}
+\definecolor{11_rdgy_div_blindSafe_8}{RGB}{186,186,186}
+\definecolor{11_rdgy_div_blindSafe_9}{RGB}{135,135,135}
+\definecolor{11_rdgy_div_blindSafe_10}{RGB}{77,77,77}
+\definecolor{11_rdgy_div_blindSafe_11}{RGB}{26,26,26}
+
+% 3-class div – puor
+\definecolor{3_puor_div_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{241,163,64}
+\definecolor{3_puor_div_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{247,247,247}
+\definecolor{3_puor_div_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{153,142,195}
+
+% 4-class div – puor
+\definecolor{4_puor_div_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{230,97,1}
+\definecolor{4_puor_div_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,184,99}
+\definecolor{4_puor_div_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{178,171,210}
+\definecolor{4_puor_div_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{94,60,153}
+
+% 5-class div – puor
+\definecolor{5_puor_div_blindSafe_PrintSafe_1}{RGB}{230,97,1}
+\definecolor{5_puor_div_blindSafe_PrintSafe_2}{RGB}{253,184,99}
+\definecolor{5_puor_div_blindSafe_PrintSafe_3}{RGB}{247,247,247}
+\definecolor{5_puor_div_blindSafe_PrintSafe_4}{RGB}{178,171,210}
+\definecolor{5_puor_div_blindSafe_PrintSafe_5}{RGB}{94,60,153}
+
+% 6-class div – puor
+\definecolor{6_puor_div_blindSafe_PrintSafe_1}{RGB}{179,88,6}
+\definecolor{6_puor_div_blindSafe_PrintSafe_2}{RGB}{241,163,64}
+\definecolor{6_puor_div_blindSafe_PrintSafe_3}{RGB}{254,224,182}
+\definecolor{6_puor_div_blindSafe_PrintSafe_4}{RGB}{216,218,235}
+\definecolor{6_puor_div_blindSafe_PrintSafe_5}{RGB}{153,142,195}
+\definecolor{6_puor_div_blindSafe_PrintSafe_6}{RGB}{84,39,136}
+
+% 7-class div – puor
+\definecolor{7_puor_div_blindSafe_1}{RGB}{179,88,6}
+\definecolor{7_puor_div_blindSafe_2}{RGB}{241,163,64}
+\definecolor{7_puor_div_blindSafe_3}{RGB}{254,224,182}
+\definecolor{7_puor_div_blindSafe_4}{RGB}{247,247,247}
+\definecolor{7_puor_div_blindSafe_5}{RGB}{216,218,235}
+\definecolor{7_puor_div_blindSafe_6}{RGB}{153,142,195}
+\definecolor{7_puor_div_blindSafe_7}{RGB}{84,39,136}
+
+% 8-class div – puor
+\definecolor{8_puor_div_blindSafe_1}{RGB}{179,88,6}
+\definecolor{8_puor_div_blindSafe_2}{RGB}{224,130,20}
+\definecolor{8_puor_div_blindSafe_3}{RGB}{253,184,99}
+\definecolor{8_puor_div_blindSafe_4}{RGB}{254,224,182}
+\definecolor{8_puor_div_blindSafe_5}{RGB}{216,218,235}
+\definecolor{8_puor_div_blindSafe_6}{RGB}{178,171,210}
+\definecolor{8_puor_div_blindSafe_7}{RGB}{128,115,172}
+\definecolor{8_puor_div_blindSafe_8}{RGB}{84,39,136}
+
+% 9-class div – puor
+\definecolor{9_puor_div_blindSafe_1}{RGB}{179,88,6}
+\definecolor{9_puor_div_blindSafe_2}{RGB}{224,130,20}
+\definecolor{9_puor_div_blindSafe_3}{RGB}{253,184,99}
+\definecolor{9_puor_div_blindSafe_4}{RGB}{254,224,182}
+\definecolor{9_puor_div_blindSafe_5}{RGB}{247,247,247}
+\definecolor{9_puor_div_blindSafe_6}{RGB}{216,218,235}
+\definecolor{9_puor_div_blindSafe_7}{RGB}{178,171,210}
+\definecolor{9_puor_div_blindSafe_8}{RGB}{128,115,172}
+\definecolor{9_puor_div_blindSafe_9}{RGB}{84,39,136}
+
+% 10-class div – puor
+\definecolor{10_puor_div_blindSafe_1}{RGB}{127,59,8}
+\definecolor{10_puor_div_blindSafe_2}{RGB}{179,88,6}
+\definecolor{10_puor_div_blindSafe_3}{RGB}{224,130,20}
+\definecolor{10_puor_div_blindSafe_4}{RGB}{253,184,99}
+\definecolor{10_puor_div_blindSafe_5}{RGB}{254,224,182}
+\definecolor{10_puor_div_blindSafe_6}{RGB}{216,218,235}
+\definecolor{10_puor_div_blindSafe_7}{RGB}{178,171,210}
+\definecolor{10_puor_div_blindSafe_8}{RGB}{128,115,172}
+\definecolor{10_puor_div_blindSafe_9}{RGB}{84,39,136}
+\definecolor{10_puor_div_blindSafe_10}{RGB}{45,0,75}
+
+% 11-class div – puor
+\definecolor{11_puor_div_blindSafe_1}{RGB}{127,59,8}
+\definecolor{11_puor_div_blindSafe_2}{RGB}{179,88,6}
+\definecolor{11_puor_div_blindSafe_3}{RGB}{224,130,20}
+\definecolor{11_puor_div_blindSafe_4}{RGB}{253,184,99}
+\definecolor{11_puor_div_blindSafe_5}{RGB}{254,224,182}
+\definecolor{11_puor_div_blindSafe_6}{RGB}{247,247,247}
+\definecolor{11_puor_div_blindSafe_7}{RGB}{216,218,235}
+\definecolor{11_puor_div_blindSafe_8}{RGB}{178,171,210}
+\definecolor{11_puor_div_blindSafe_9}{RGB}{128,115,172}
+\definecolor{11_puor_div_blindSafe_10}{RGB}{84,39,136}
+\definecolor{11_puor_div_blindSafe_11}{RGB}{45,0,75}
+
+% 3-class qual – set2
+\definecolor{3_set2_qual_blindSafe_PrintSafe_1}{RGB}{102,194,165}
+\definecolor{3_set2_qual_blindSafe_PrintSafe_2}{RGB}{252,141,98}
+\definecolor{3_set2_qual_blindSafe_PrintSafe_3}{RGB}{141,160,203}
+
+% 4-class qual – set2
+\definecolor{4_set2_qual_blindSafe_PrintSafe_1}{RGB}{102,194,165}
+\definecolor{4_set2_qual_blindSafe_PrintSafe_2}{RGB}{252,141,98}
+\definecolor{4_set2_qual_blindSafe_PrintSafe_3}{RGB}{141,160,203}
+\definecolor{4_set2_qual_blindSafe_PrintSafe_4}{RGB}{231,138,195}
+
+% 5-class qual – set2
+\definecolor{5_set2_qual_blindSafe_PrintSafe_1}{RGB}{102,194,165}
+\definecolor{5_set2_qual_blindSafe_PrintSafe_2}{RGB}{252,141,98}
+\definecolor{5_set2_qual_blindSafe_PrintSafe_3}{RGB}{141,160,203}
+\definecolor{5_set2_qual_blindSafe_PrintSafe_4}{RGB}{231,138,195}
+\definecolor{5_set2_qual_blindSafe_PrintSafe_5}{RGB}{166,216,84}
+
+% 6-class qual – set2
+\definecolor{6_set2_qual_blindSafe_PrintSafe_1}{RGB}{102,194,165}
+\definecolor{6_set2_qual_blindSafe_PrintSafe_2}{RGB}{252,141,98}
+\definecolor{6_set2_qual_blindSafe_PrintSafe_3}{RGB}{141,160,203}
+\definecolor{6_set2_qual_blindSafe_PrintSafe_4}{RGB}{231,138,195}
+\definecolor{6_set2_qual_blindSafe_PrintSafe_5}{RGB}{166,216,84}
+\definecolor{6_set2_qual_blindSafe_PrintSafe_6}{RGB}{255,217,47}
+
+% 7-class qual – set2
+\definecolor{7_set2_qual_PrintSafe_1}{RGB}{102,194,165}
+\definecolor{7_set2_qual_PrintSafe_2}{RGB}{252,141,98}
+\definecolor{7_set2_qual_PrintSafe_3}{RGB}{141,160,203}
+\definecolor{7_set2_qual_PrintSafe_4}{RGB}{231,138,195}
+\definecolor{7_set2_qual_PrintSafe_5}{RGB}{166,216,84}
+\definecolor{7_set2_qual_PrintSafe_6}{RGB}{255,217,47}
+\definecolor{7_set2_qual_PrintSafe_7}{RGB}{229,196,148}
+
+% 8-class qual – set2
+\definecolor{8_set2_qual_PrintSafe_1}{RGB}{102,194,165}
+\definecolor{8_set2_qual_PrintSafe_2}{RGB}{252,141,98}
+\definecolor{8_set2_qual_PrintSafe_3}{RGB}{141,160,203}
+\definecolor{8_set2_qual_PrintSafe_4}{RGB}{231,138,195}
+\definecolor{8_set2_qual_PrintSafe_5}{RGB}{166,216,84}
+\definecolor{8_set2_qual_PrintSafe_6}{RGB}{255,217,47}
+\definecolor{8_set2_qual_PrintSafe_7}{RGB}{229,196,148}
+\definecolor{8_set2_qual_PrintSafe_8}{RGB}{179,179,179}
+
+% 3-class qual – accent
+\definecolor{3_accent_qual_blindSafe_PrintSafe_1}{RGB}{127,201,127}
+\definecolor{3_accent_qual_blindSafe_PrintSafe_2}{RGB}{190,174,212}
+\definecolor{3_accent_qual_blindSafe_PrintSafe_3}{RGB}{253,192,134}
+
+% 4-class qual – accent
+\definecolor{4_accent_qual_PrintSafe_1}{RGB}{127,201,127}
+\definecolor{4_accent_qual_PrintSafe_2}{RGB}{190,174,212}
+\definecolor{4_accent_qual_PrintSafe_3}{RGB}{253,192,134}
+\definecolor{4_accent_qual_PrintSafe_4}{RGB}{255,255,153}
+
+% 5-class qual – accent
+\definecolor{5_accent_qual_PrintSafe_1}{RGB}{127,201,127}
+\definecolor{5_accent_qual_PrintSafe_2}{RGB}{190,174,212}
+\definecolor{5_accent_qual_PrintSafe_3}{RGB}{253,192,134}
+\definecolor{5_accent_qual_PrintSafe_4}{RGB}{255,255,153}
+\definecolor{5_accent_qual_PrintSafe_5}{RGB}{56,108,176}
+
+% 6-class qual – accent
+\definecolor{6_accent_qual_PrintSafe_1}{RGB}{127,201,127}
+\definecolor{6_accent_qual_PrintSafe_2}{RGB}{190,174,212}
+\definecolor{6_accent_qual_PrintSafe_3}{RGB}{253,192,134}
+\definecolor{6_accent_qual_PrintSafe_4}{RGB}{255,255,153}
+\definecolor{6_accent_qual_PrintSafe_5}{RGB}{56,108,176}
+\definecolor{6_accent_qual_PrintSafe_6}{RGB}{240,2,127}
+
+% 7-class qual – accent
+\definecolor{7_accent_qual_PrintSafe_1}{RGB}{127,201,127}
+\definecolor{7_accent_qual_PrintSafe_2}{RGB}{190,174,212}
+\definecolor{7_accent_qual_PrintSafe_3}{RGB}{253,192,134}
+\definecolor{7_accent_qual_PrintSafe_4}{RGB}{255,255,153}
+\definecolor{7_accent_qual_PrintSafe_5}{RGB}{56,108,176}
+\definecolor{7_accent_qual_PrintSafe_6}{RGB}{240,2,127}
+\definecolor{7_accent_qual_PrintSafe_7}{RGB}{191,91,23}
+
+% 8-class qual – accent
+\definecolor{8_accent_qual_PrintSafe_1}{RGB}{127,201,127}
+\definecolor{8_accent_qual_PrintSafe_2}{RGB}{190,174,212}
+\definecolor{8_accent_qual_PrintSafe_3}{RGB}{253,192,134}
+\definecolor{8_accent_qual_PrintSafe_4}{RGB}{255,255,153}
+\definecolor{8_accent_qual_PrintSafe_5}{RGB}{56,108,176}
+\definecolor{8_accent_qual_PrintSafe_6}{RGB}{240,2,127}
+\definecolor{8_accent_qual_PrintSafe_7}{RGB}{191,91,23}
+\definecolor{8_accent_qual_PrintSafe_8}{RGB}{102,102,102}
+
+% 3-class qual – set1
+\definecolor{3_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{3_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{3_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+
+% 4-class qual – set1
+\definecolor{4_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{4_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{4_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+\definecolor{4_set1_qual_blindSafe_PrintSafe_4}{RGB}{152,78,163}
+
+% 5-class qual – set1
+\definecolor{5_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{5_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{5_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+\definecolor{5_set1_qual_blindSafe_PrintSafe_4}{RGB}{152,78,163}
+\definecolor{5_set1_qual_blindSafe_PrintSafe_5}{RGB}{255,127,0}
+
+% 6-class qual – set1
+\definecolor{6_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{6_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{6_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+\definecolor{6_set1_qual_blindSafe_PrintSafe_4}{RGB}{152,78,163}
+\definecolor{6_set1_qual_blindSafe_PrintSafe_5}{RGB}{255,127,0}
+\definecolor{6_set1_qual_blindSafe_PrintSafe_6}{RGB}{255,255,51}
+
+% 7-class qual – set1
+\definecolor{7_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{7_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{7_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+\definecolor{7_set1_qual_blindSafe_PrintSafe_4}{RGB}{152,78,163}
+\definecolor{7_set1_qual_blindSafe_PrintSafe_5}{RGB}{255,127,0}
+\definecolor{7_set1_qual_blindSafe_PrintSafe_6}{RGB}{255,255,51}
+\definecolor{7_set1_qual_blindSafe_PrintSafe_7}{RGB}{166,86,40}
+
+% 8-class qual – set1
+\definecolor{8_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_4}{RGB}{152,78,163}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_5}{RGB}{255,127,0}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_6}{RGB}{255,255,51}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_7}{RGB}{166,86,40}
+\definecolor{8_set1_qual_blindSafe_PrintSafe_8}{RGB}{247,129,191}
+
+% 9-class qual – set1
+\definecolor{9_set1_qual_blindSafe_PrintSafe_1}{RGB}{228,26,28}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_2}{RGB}{55,126,184}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_3}{RGB}{77,175,74}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_4}{RGB}{152,78,163}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_5}{RGB}{255,127,0}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_6}{RGB}{255,255,51}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_7}{RGB}{166,86,40}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_8}{RGB}{247,129,191}
+\definecolor{9_set1_qual_blindSafe_PrintSafe_9}{RGB}{153,153,153}
+
+% 3-class qual – set3
+\definecolor{3_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{3_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{3_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+
+% 4-class qual – set3
+\definecolor{4_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{4_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{4_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+\definecolor{4_set3_qual_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{251,128,114}
+
+% 5-class qual – set3
+\definecolor{5_set3_qual_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{5_set3_qual_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{5_set3_qual_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+\definecolor{5_set3_qual_PrintSafe_PhotoCopySafe_4}{RGB}{251,128,114}
+\definecolor{5_set3_qual_PrintSafe_PhotoCopySafe_5}{RGB}{128,177,211}
+
+% 6-class qual – set3
+\definecolor{6_set3_qual_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{6_set3_qual_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{6_set3_qual_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+\definecolor{6_set3_qual_PrintSafe_PhotoCopySafe_4}{RGB}{251,128,114}
+\definecolor{6_set3_qual_PrintSafe_PhotoCopySafe_5}{RGB}{128,177,211}
+\definecolor{6_set3_qual_PrintSafe_PhotoCopySafe_6}{RGB}{253,180,98}
+
+% 7-class qual – set3
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_4}{RGB}{251,128,114}
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_5}{RGB}{128,177,211}
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_6}{RGB}{253,180,98}
+\definecolor{7_set3_qual_PrintSafe_PhotoCopySafe_7}{RGB}{179,222,105}
+
+% 8-class qual – set3
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_4}{RGB}{251,128,114}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_5}{RGB}{128,177,211}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_6}{RGB}{253,180,98}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_7}{RGB}{179,222,105}
+\definecolor{8_set3_qual_PrintSafe_PhotoCopySafe_8}{RGB}{252,205,229}
+
+% 9-class qual – set3
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_1}{RGB}{141,211,199}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_2}{RGB}{255,255,179}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_3}{RGB}{190,186,218}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_4}{RGB}{251,128,114}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_5}{RGB}{128,177,211}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_6}{RGB}{253,180,98}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_7}{RGB}{179,222,105}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_8}{RGB}{252,205,229}
+\definecolor{9_set3_qual_PrintSafe_PhotoCopySafe_9}{RGB}{217,217,217}
+
+% 10-class qual – set3
+\definecolor{10_set3_qual_1}{RGB}{141,211,199}
+\definecolor{10_set3_qual_2}{RGB}{255,255,179}
+\definecolor{10_set3_qual_3}{RGB}{190,186,218}
+\definecolor{10_set3_qual_4}{RGB}{251,128,114}
+\definecolor{10_set3_qual_5}{RGB}{128,177,211}
+\definecolor{10_set3_qual_6}{RGB}{253,180,98}
+\definecolor{10_set3_qual_7}{RGB}{179,222,105}
+\definecolor{10_set3_qual_8}{RGB}{252,205,229}
+\definecolor{10_set3_qual_9}{RGB}{217,217,217}
+\definecolor{10_set3_qual_10}{RGB}{188,128,189}
+
+% 11-class qual – set3
+\definecolor{11_set3_qual_1}{RGB}{141,211,199}
+\definecolor{11_set3_qual_2}{RGB}{255,255,179}
+\definecolor{11_set3_qual_3}{RGB}{190,186,218}
+\definecolor{11_set3_qual_4}{RGB}{251,128,114}
+\definecolor{11_set3_qual_5}{RGB}{128,177,211}
+\definecolor{11_set3_qual_6}{RGB}{253,180,98}
+\definecolor{11_set3_qual_7}{RGB}{179,222,105}
+\definecolor{11_set3_qual_8}{RGB}{252,205,229}
+\definecolor{11_set3_qual_9}{RGB}{217,217,217}
+\definecolor{11_set3_qual_10}{RGB}{188,128,189}
+\definecolor{11_set3_qual_11}{RGB}{204,235,197}
+
+% 12-class qual – set3
+\definecolor{12_set3_qual_1}{RGB}{141,211,199}
+\definecolor{12_set3_qual_2}{RGB}{255,255,179}
+\definecolor{12_set3_qual_3}{RGB}{190,186,218}
+\definecolor{12_set3_qual_4}{RGB}{251,128,114}
+\definecolor{12_set3_qual_5}{RGB}{128,177,211}
+\definecolor{12_set3_qual_6}{RGB}{253,180,98}
+\definecolor{12_set3_qual_7}{RGB}{179,222,105}
+\definecolor{12_set3_qual_8}{RGB}{252,205,229}
+\definecolor{12_set3_qual_9}{RGB}{217,217,217}
+\definecolor{12_set3_qual_10}{RGB}{188,128,189}
+\definecolor{12_set3_qual_11}{RGB}{204,235,197}
+\definecolor{12_set3_qual_12}{RGB}{255,237,111}
+
+% 3-class qual – dark2
+\definecolor{3_dark2_qual_blindSafe_PrintSafe_1}{RGB}{27,158,119}
+\definecolor{3_dark2_qual_blindSafe_PrintSafe_2}{RGB}{217,95,2}
+\definecolor{3_dark2_qual_blindSafe_PrintSafe_3}{RGB}{117,112,179}
+
+% 4-class qual – dark2
+\definecolor{4_dark2_qual_blindSafe_PrintSafe_1}{RGB}{27,158,119}
+\definecolor{4_dark2_qual_blindSafe_PrintSafe_2}{RGB}{217,95,2}
+\definecolor{4_dark2_qual_blindSafe_PrintSafe_3}{RGB}{117,112,179}
+\definecolor{4_dark2_qual_blindSafe_PrintSafe_4}{RGB}{231,41,138}
+
+% 5-class qual – dark2
+\definecolor{5_dark2_qual_blindSafe_PrintSafe_1}{RGB}{27,158,119}
+\definecolor{5_dark2_qual_blindSafe_PrintSafe_2}{RGB}{217,95,2}
+\definecolor{5_dark2_qual_blindSafe_PrintSafe_3}{RGB}{117,112,179}
+\definecolor{5_dark2_qual_blindSafe_PrintSafe_4}{RGB}{231,41,138}
+\definecolor{5_dark2_qual_blindSafe_PrintSafe_5}{RGB}{102,166,30}
+
+% 6-class qual – dark2
+\definecolor{6_dark2_qual_blindSafe_PrintSafe_1}{RGB}{27,158,119}
+\definecolor{6_dark2_qual_blindSafe_PrintSafe_2}{RGB}{217,95,2}
+\definecolor{6_dark2_qual_blindSafe_PrintSafe_3}{RGB}{117,112,179}
+\definecolor{6_dark2_qual_blindSafe_PrintSafe_4}{RGB}{231,41,138}
+\definecolor{6_dark2_qual_blindSafe_PrintSafe_5}{RGB}{102,166,30}
+\definecolor{6_dark2_qual_blindSafe_PrintSafe_6}{RGB}{230,171,2}
+
+% 7-class qual – dark2
+\definecolor{7_dark2_qual_PrintSafe_1}{RGB}{27,158,119}
+\definecolor{7_dark2_qual_PrintSafe_2}{RGB}{217,95,2}
+\definecolor{7_dark2_qual_PrintSafe_3}{RGB}{117,112,179}
+\definecolor{7_dark2_qual_PrintSafe_4}{RGB}{231,41,138}
+\definecolor{7_dark2_qual_PrintSafe_5}{RGB}{102,166,30}
+\definecolor{7_dark2_qual_PrintSafe_6}{RGB}{230,171,2}
+\definecolor{7_dark2_qual_PrintSafe_7}{RGB}{166,118,29}
+
+% 8-class qual – dark2
+\definecolor{8_dark2_qual_PrintSafe_1}{RGB}{27,158,119}
+\definecolor{8_dark2_qual_PrintSafe_2}{RGB}{217,95,2}
+\definecolor{8_dark2_qual_PrintSafe_3}{RGB}{117,112,179}
+\definecolor{8_dark2_qual_PrintSafe_4}{RGB}{231,41,138}
+\definecolor{8_dark2_qual_PrintSafe_5}{RGB}{102,166,30}
+\definecolor{8_dark2_qual_PrintSafe_6}{RGB}{230,171,2}
+\definecolor{8_dark2_qual_PrintSafe_7}{RGB}{166,118,29}
+\definecolor{8_dark2_qual_PrintSafe_8}{RGB}{102,102,102}
+
+% 3-class qual – paired
+\definecolor{3_paired_qual_blindSafe_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{3_paired_qual_blindSafe_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{3_paired_qual_blindSafe_PrintSafe_3}{RGB}{178,223,138}
+
+% 4-class qual – paired
+\definecolor{4_paired_qual_blindSafe_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{4_paired_qual_blindSafe_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{4_paired_qual_blindSafe_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{4_paired_qual_blindSafe_PrintSafe_4}{RGB}{51,160,44}
+
+% 5-class qual – paired
+\definecolor{5_paired_qual_blindSafe_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{5_paired_qual_blindSafe_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{5_paired_qual_blindSafe_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{5_paired_qual_blindSafe_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{5_paired_qual_blindSafe_PrintSafe_5}{RGB}{251,154,153}
+
+% 6-class qual – paired
+\definecolor{6_paired_qual_blindSafe_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{6_paired_qual_blindSafe_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{6_paired_qual_blindSafe_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{6_paired_qual_blindSafe_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{6_paired_qual_blindSafe_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{6_paired_qual_blindSafe_PrintSafe_6}{RGB}{227,26,28}
+
+% 7-class qual – paired
+\definecolor{7_paired_qual_blindSafe_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{7_paired_qual_blindSafe_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{7_paired_qual_blindSafe_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{7_paired_qual_blindSafe_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{7_paired_qual_blindSafe_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{7_paired_qual_blindSafe_PrintSafe_6}{RGB}{227,26,28}
+\definecolor{7_paired_qual_blindSafe_PrintSafe_7}{RGB}{253,191,111}
+
+% 8-class qual – paired
+\definecolor{8_paired_qual_blindSafe_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_6}{RGB}{227,26,28}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_7}{RGB}{253,191,111}
+\definecolor{8_paired_qual_blindSafe_PrintSafe_8}{RGB}{255,127,0}
+
+% 9-class qual – paired
+\definecolor{9_paired_qual_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{9_paired_qual_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{9_paired_qual_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{9_paired_qual_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{9_paired_qual_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{9_paired_qual_PrintSafe_6}{RGB}{227,26,28}
+\definecolor{9_paired_qual_PrintSafe_7}{RGB}{253,191,111}
+\definecolor{9_paired_qual_PrintSafe_8}{RGB}{255,127,0}
+\definecolor{9_paired_qual_PrintSafe_9}{RGB}{202,178,214}
+
+% 10-class qual – paired
+\definecolor{10_paired_qual_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{10_paired_qual_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{10_paired_qual_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{10_paired_qual_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{10_paired_qual_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{10_paired_qual_PrintSafe_6}{RGB}{227,26,28}
+\definecolor{10_paired_qual_PrintSafe_7}{RGB}{253,191,111}
+\definecolor{10_paired_qual_PrintSafe_8}{RGB}{255,127,0}
+\definecolor{10_paired_qual_PrintSafe_9}{RGB}{202,178,214}
+\definecolor{10_paired_qual_PrintSafe_10}{RGB}{106,61,154}
+
+% 11-class qual – paired
+\definecolor{11_paired_qual_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{11_paired_qual_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{11_paired_qual_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{11_paired_qual_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{11_paired_qual_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{11_paired_qual_PrintSafe_6}{RGB}{227,26,28}
+\definecolor{11_paired_qual_PrintSafe_7}{RGB}{253,191,111}
+\definecolor{11_paired_qual_PrintSafe_8}{RGB}{255,127,0}
+\definecolor{11_paired_qual_PrintSafe_9}{RGB}{202,178,214}
+\definecolor{11_paired_qual_PrintSafe_10}{RGB}{106,61,154}
+\definecolor{11_paired_qual_PrintSafe_11}{RGB}{255,255,153}
+
+% 12-class qual – paired
+\definecolor{12_paired_qual_PrintSafe_1}{RGB}{166,206,227}
+\definecolor{12_paired_qual_PrintSafe_2}{RGB}{31,120,180}
+\definecolor{12_paired_qual_PrintSafe_3}{RGB}{178,223,138}
+\definecolor{12_paired_qual_PrintSafe_4}{RGB}{51,160,44}
+\definecolor{12_paired_qual_PrintSafe_5}{RGB}{251,154,153}
+\definecolor{12_paired_qual_PrintSafe_6}{RGB}{227,26,28}
+\definecolor{12_paired_qual_PrintSafe_7}{RGB}{253,191,111}
+\definecolor{12_paired_qual_PrintSafe_8}{RGB}{255,127,0}
+\definecolor{12_paired_qual_PrintSafe_9}{RGB}{202,178,214}
+\definecolor{12_paired_qual_PrintSafe_10}{RGB}{106,61,154}
+\definecolor{12_paired_qual_PrintSafe_11}{RGB}{255,255,153}
+\definecolor{12_paired_qual_PrintSafe_12}{RGB}{177,89,40}
+
+% 3-class qual – pastel2
+\definecolor{3_pastel2_qual_blindSafe_PrintSafe_1}{RGB}{179,226,205}
+\definecolor{3_pastel2_qual_blindSafe_PrintSafe_2}{RGB}{253,205,172}
+\definecolor{3_pastel2_qual_blindSafe_PrintSafe_3}{RGB}{203,213,232}
+
+% 4-class qual – pastel2
+\definecolor{4_pastel2_qual_1}{RGB}{179,226,205}
+\definecolor{4_pastel2_qual_2}{RGB}{253,205,172}
+\definecolor{4_pastel2_qual_3}{RGB}{203,213,232}
+\definecolor{4_pastel2_qual_4}{RGB}{244,202,228}
+
+% 5-class qual – pastel2
+\definecolor{5_pastel2_qual_1}{RGB}{179,226,205}
+\definecolor{5_pastel2_qual_2}{RGB}{253,205,172}
+\definecolor{5_pastel2_qual_3}{RGB}{203,213,232}
+\definecolor{5_pastel2_qual_4}{RGB}{244,202,228}
+\definecolor{5_pastel2_qual_5}{RGB}{230,245,201}
+
+% 6-class qual – pastel2
+\definecolor{6_pastel2_qual_1}{RGB}{179,226,205}
+\definecolor{6_pastel2_qual_2}{RGB}{253,205,172}
+\definecolor{6_pastel2_qual_3}{RGB}{203,213,232}
+\definecolor{6_pastel2_qual_4}{RGB}{244,202,228}
+\definecolor{6_pastel2_qual_5}{RGB}{230,245,201}
+\definecolor{6_pastel2_qual_6}{RGB}{255,242,174}
+
+% 7-class qual – pastel2
+\definecolor{7_pastel2_qual_1}{RGB}{179,226,205}
+\definecolor{7_pastel2_qual_2}{RGB}{253,205,172}
+\definecolor{7_pastel2_qual_3}{RGB}{203,213,232}
+\definecolor{7_pastel2_qual_4}{RGB}{244,202,228}
+\definecolor{7_pastel2_qual_5}{RGB}{230,245,201}
+\definecolor{7_pastel2_qual_6}{RGB}{255,242,174}
+\definecolor{7_pastel2_qual_7}{RGB}{241,226,204}
+
+% 8-class qual – pastel2
+\definecolor{8_pastel2_qual_1}{RGB}{179,226,205}
+\definecolor{8_pastel2_qual_2}{RGB}{253,205,172}
+\definecolor{8_pastel2_qual_3}{RGB}{203,213,232}
+\definecolor{8_pastel2_qual_4}{RGB}{244,202,228}
+\definecolor{8_pastel2_qual_5}{RGB}{230,245,201}
+\definecolor{8_pastel2_qual_6}{RGB}{255,242,174}
+\definecolor{8_pastel2_qual_7}{RGB}{241,226,204}
+\definecolor{8_pastel2_qual_8}{RGB}{204,204,204}
+
+% 3-class qual – pastel1
+\definecolor{3_pastel1_qual_blindSafe_PrintSafe_1}{RGB}{251,180,174}
+\definecolor{3_pastel1_qual_blindSafe_PrintSafe_2}{RGB}{179,205,227}
+\definecolor{3_pastel1_qual_blindSafe_PrintSafe_3}{RGB}{204,235,197}
+
+% 4-class qual – pastel1
+\definecolor{4_pastel1_qual_PrintSafe_1}{RGB}{251,180,174}
+\definecolor{4_pastel1_qual_PrintSafe_2}{RGB}{179,205,227}
+\definecolor{4_pastel1_qual_PrintSafe_3}{RGB}{204,235,197}
+\definecolor{4_pastel1_qual_PrintSafe_4}{RGB}{222,203,228}
+
+% 5-class qual – pastel1
+\definecolor{5_pastel1_qual_PrintSafe_1}{RGB}{251,180,174}
+\definecolor{5_pastel1_qual_PrintSafe_2}{RGB}{179,205,227}
+\definecolor{5_pastel1_qual_PrintSafe_3}{RGB}{204,235,197}
+\definecolor{5_pastel1_qual_PrintSafe_4}{RGB}{222,203,228}
+\definecolor{5_pastel1_qual_PrintSafe_5}{RGB}{254,217,166}
+
+% 6-class qual – pastel1
+\definecolor{6_pastel1_qual_1}{RGB}{251,180,174}
+\definecolor{6_pastel1_qual_2}{RGB}{179,205,227}
+\definecolor{6_pastel1_qual_3}{RGB}{204,235,197}
+\definecolor{6_pastel1_qual_4}{RGB}{222,203,228}
+\definecolor{6_pastel1_qual_5}{RGB}{254,217,166}
+\definecolor{6_pastel1_qual_6}{RGB}{255,255,204}
+
+% 7-class qual – pastel1
+\definecolor{7_pastel1_qual_1}{RGB}{251,180,174}
+\definecolor{7_pastel1_qual_2}{RGB}{179,205,227}
+\definecolor{7_pastel1_qual_3}{RGB}{204,235,197}
+\definecolor{7_pastel1_qual_4}{RGB}{222,203,228}
+\definecolor{7_pastel1_qual_5}{RGB}{254,217,166}
+\definecolor{7_pastel1_qual_6}{RGB}{255,255,204}
+\definecolor{7_pastel1_qual_7}{RGB}{229,216,189}
+
+% 8-class qual – pastel1
+\definecolor{8_pastel1_qual_1}{RGB}{251,180,174}
+\definecolor{8_pastel1_qual_2}{RGB}{179,205,227}
+\definecolor{8_pastel1_qual_3}{RGB}{204,235,197}
+\definecolor{8_pastel1_qual_4}{RGB}{222,203,228}
+\definecolor{8_pastel1_qual_5}{RGB}{254,217,166}
+\definecolor{8_pastel1_qual_6}{RGB}{255,255,204}
+\definecolor{8_pastel1_qual_7}{RGB}{229,216,189}
+\definecolor{8_pastel1_qual_8}{RGB}{253,218,236}
+
+% 9-class qual – pastel1
+\definecolor{9_pastel1_qual_1}{RGB}{251,180,174}
+\definecolor{9_pastel1_qual_2}{RGB}{179,205,227}
+\definecolor{9_pastel1_qual_3}{RGB}{204,235,197}
+\definecolor{9_pastel1_qual_4}{RGB}{222,203,228}
+\definecolor{9_pastel1_qual_5}{RGB}{254,217,166}
+\definecolor{9_pastel1_qual_6}{RGB}{255,255,204}
+\definecolor{9_pastel1_qual_7}{RGB}{229,216,189}
+\definecolor{9_pastel1_qual_8}{RGB}{253,218,236}
+\definecolor{9_pastel1_qual_9}{RGB}{242,242,242}
+
+% 3-class seq – orrd
+\definecolor{3_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,232,200}
+\definecolor{3_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,187,132}
+\definecolor{3_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{227,74,51}
+
+% 4-class seq – orrd
+\definecolor{4_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,240,217}
+\definecolor{4_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,204,138}
+\definecolor{4_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{252,141,89}
+\definecolor{4_orrd_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{215,48,31}
+
+% 5-class seq – orrd
+\definecolor{5_orrd_seq_blindSafe_PhotoCopySafe_1}{RGB}{254,240,217}
+\definecolor{5_orrd_seq_blindSafe_PhotoCopySafe_2}{RGB}{253,204,138}
+\definecolor{5_orrd_seq_blindSafe_PhotoCopySafe_3}{RGB}{252,141,89}
+\definecolor{5_orrd_seq_blindSafe_PhotoCopySafe_4}{RGB}{227,74,51}
+\definecolor{5_orrd_seq_blindSafe_PhotoCopySafe_5}{RGB}{179,0,0}
+
+% 6-class seq – orrd
+\definecolor{6_orrd_seq_blindSafe_1}{RGB}{254,240,217}
+\definecolor{6_orrd_seq_blindSafe_2}{RGB}{253,212,158}
+\definecolor{6_orrd_seq_blindSafe_3}{RGB}{253,187,132}
+\definecolor{6_orrd_seq_blindSafe_4}{RGB}{252,141,89}
+\definecolor{6_orrd_seq_blindSafe_5}{RGB}{227,74,51}
+\definecolor{6_orrd_seq_blindSafe_6}{RGB}{179,0,0}
+
+% 7-class seq – orrd
+\definecolor{7_orrd_seq_blindSafe_1}{RGB}{254,240,217}
+\definecolor{7_orrd_seq_blindSafe_2}{RGB}{253,212,158}
+\definecolor{7_orrd_seq_blindSafe_3}{RGB}{253,187,132}
+\definecolor{7_orrd_seq_blindSafe_4}{RGB}{252,141,89}
+\definecolor{7_orrd_seq_blindSafe_5}{RGB}{239,101,72}
+\definecolor{7_orrd_seq_blindSafe_6}{RGB}{215,48,31}
+\definecolor{7_orrd_seq_blindSafe_7}{RGB}{153,0,0}
+
+% 8-class seq – orrd
+\definecolor{8_orrd_seq_blindSafe_1}{RGB}{255,247,236}
+\definecolor{8_orrd_seq_blindSafe_2}{RGB}{254,232,200}
+\definecolor{8_orrd_seq_blindSafe_3}{RGB}{253,212,158}
+\definecolor{8_orrd_seq_blindSafe_4}{RGB}{253,187,132}
+\definecolor{8_orrd_seq_blindSafe_5}{RGB}{252,141,89}
+\definecolor{8_orrd_seq_blindSafe_6}{RGB}{239,101,72}
+\definecolor{8_orrd_seq_blindSafe_7}{RGB}{215,48,31}
+\definecolor{8_orrd_seq_blindSafe_8}{RGB}{153,0,0}
+
+% 9-class seq – orrd
+\definecolor{9_orrd_seq_blindSafe_1}{RGB}{255,247,236}
+\definecolor{9_orrd_seq_blindSafe_2}{RGB}{254,232,200}
+\definecolor{9_orrd_seq_blindSafe_3}{RGB}{253,212,158}
+\definecolor{9_orrd_seq_blindSafe_4}{RGB}{253,187,132}
+\definecolor{9_orrd_seq_blindSafe_5}{RGB}{252,141,89}
+\definecolor{9_orrd_seq_blindSafe_6}{RGB}{239,101,72}
+\definecolor{9_orrd_seq_blindSafe_7}{RGB}{215,48,31}
+\definecolor{9_orrd_seq_blindSafe_8}{RGB}{179,0,0}
+\definecolor{9_orrd_seq_blindSafe_9}{RGB}{127,0,0}
+
+% 3-class seq – pubu
+\definecolor{3_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{236,231,242}
+\definecolor{3_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{166,189,219}
+\definecolor{3_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{43,140,190}
+
+% 4-class seq – pubu
+\definecolor{4_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{241,238,246}
+\definecolor{4_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{189,201,225}
+\definecolor{4_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{116,169,207}
+\definecolor{4_pubu_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{5,112,176}
+
+% 5-class seq – pubu
+\definecolor{5_pubu_seq_blindSafe_PrintSafe_1}{RGB}{241,238,246}
+\definecolor{5_pubu_seq_blindSafe_PrintSafe_2}{RGB}{189,201,225}
+\definecolor{5_pubu_seq_blindSafe_PrintSafe_3}{RGB}{116,169,207}
+\definecolor{5_pubu_seq_blindSafe_PrintSafe_4}{RGB}{43,140,190}
+\definecolor{5_pubu_seq_blindSafe_PrintSafe_5}{RGB}{4,90,141}
+
+% 6-class seq – pubu
+\definecolor{6_pubu_seq_blindSafe_1}{RGB}{241,238,246}
+\definecolor{6_pubu_seq_blindSafe_2}{RGB}{208,209,230}
+\definecolor{6_pubu_seq_blindSafe_3}{RGB}{166,189,219}
+\definecolor{6_pubu_seq_blindSafe_4}{RGB}{116,169,207}
+\definecolor{6_pubu_seq_blindSafe_5}{RGB}{43,140,190}
+\definecolor{6_pubu_seq_blindSafe_6}{RGB}{4,90,141}
+
+% 7-class seq – pubu
+\definecolor{7_pubu_seq_blindSafe_1}{RGB}{241,238,246}
+\definecolor{7_pubu_seq_blindSafe_2}{RGB}{208,209,230}
+\definecolor{7_pubu_seq_blindSafe_3}{RGB}{166,189,219}
+\definecolor{7_pubu_seq_blindSafe_4}{RGB}{116,169,207}
+\definecolor{7_pubu_seq_blindSafe_5}{RGB}{54,144,192}
+\definecolor{7_pubu_seq_blindSafe_6}{RGB}{5,112,176}
+\definecolor{7_pubu_seq_blindSafe_7}{RGB}{3,78,123}
+
+% 8-class seq – pubu
+\definecolor{8_pubu_seq_blindSafe_1}{RGB}{255,247,251}
+\definecolor{8_pubu_seq_blindSafe_2}{RGB}{236,231,242}
+\definecolor{8_pubu_seq_blindSafe_3}{RGB}{208,209,230}
+\definecolor{8_pubu_seq_blindSafe_4}{RGB}{166,189,219}
+\definecolor{8_pubu_seq_blindSafe_5}{RGB}{116,169,207}
+\definecolor{8_pubu_seq_blindSafe_6}{RGB}{54,144,192}
+\definecolor{8_pubu_seq_blindSafe_7}{RGB}{5,112,176}
+\definecolor{8_pubu_seq_blindSafe_8}{RGB}{3,78,123}
+
+% 9-class seq – pubu
+\definecolor{9_pubu_seq_blindSafe_1}{RGB}{255,247,251}
+\definecolor{9_pubu_seq_blindSafe_2}{RGB}{236,231,242}
+\definecolor{9_pubu_seq_blindSafe_3}{RGB}{208,209,230}
+\definecolor{9_pubu_seq_blindSafe_4}{RGB}{166,189,219}
+\definecolor{9_pubu_seq_blindSafe_5}{RGB}{116,169,207}
+\definecolor{9_pubu_seq_blindSafe_6}{RGB}{54,144,192}
+\definecolor{9_pubu_seq_blindSafe_7}{RGB}{5,112,176}
+\definecolor{9_pubu_seq_blindSafe_8}{RGB}{4,90,141}
+\definecolor{9_pubu_seq_blindSafe_9}{RGB}{2,56,88}
+
+% 3-class seq – bupu
+\definecolor{3_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{224,236,244}
+\definecolor{3_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{158,188,218}
+\definecolor{3_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{136,86,167}
+
+% 4-class seq – bupu
+\definecolor{4_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{237,248,251}
+\definecolor{4_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{179,205,227}
+\definecolor{4_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{140,150,198}
+\definecolor{4_bupu_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{136,65,157}
+
+% 5-class seq – bupu
+\definecolor{5_bupu_seq_blindSafe_PrintSafe_1}{RGB}{237,248,251}
+\definecolor{5_bupu_seq_blindSafe_PrintSafe_2}{RGB}{179,205,227}
+\definecolor{5_bupu_seq_blindSafe_PrintSafe_3}{RGB}{140,150,198}
+\definecolor{5_bupu_seq_blindSafe_PrintSafe_4}{RGB}{136,86,167}
+\definecolor{5_bupu_seq_blindSafe_PrintSafe_5}{RGB}{129,15,124}
+
+% 6-class seq – bupu
+\definecolor{6_bupu_seq_blindSafe_PrintSafe_1}{RGB}{237,248,251}
+\definecolor{6_bupu_seq_blindSafe_PrintSafe_2}{RGB}{191,211,230}
+\definecolor{6_bupu_seq_blindSafe_PrintSafe_3}{RGB}{158,188,218}
+\definecolor{6_bupu_seq_blindSafe_PrintSafe_4}{RGB}{140,150,198}
+\definecolor{6_bupu_seq_blindSafe_PrintSafe_5}{RGB}{136,86,167}
+\definecolor{6_bupu_seq_blindSafe_PrintSafe_6}{RGB}{129,15,124}
+
+% 7-class seq – bupu
+\definecolor{7_bupu_seq_blindSafe_1}{RGB}{237,248,251}
+\definecolor{7_bupu_seq_blindSafe_2}{RGB}{191,211,230}
+\definecolor{7_bupu_seq_blindSafe_3}{RGB}{158,188,218}
+\definecolor{7_bupu_seq_blindSafe_4}{RGB}{140,150,198}
+\definecolor{7_bupu_seq_blindSafe_5}{RGB}{140,107,177}
+\definecolor{7_bupu_seq_blindSafe_6}{RGB}{136,65,157}
+\definecolor{7_bupu_seq_blindSafe_7}{RGB}{110,1,107}
+
+% 8-class seq – bupu
+\definecolor{8_bupu_seq_blindSafe_1}{RGB}{247,252,253}
+\definecolor{8_bupu_seq_blindSafe_2}{RGB}{224,236,244}
+\definecolor{8_bupu_seq_blindSafe_3}{RGB}{191,211,230}
+\definecolor{8_bupu_seq_blindSafe_4}{RGB}{158,188,218}
+\definecolor{8_bupu_seq_blindSafe_5}{RGB}{140,150,198}
+\definecolor{8_bupu_seq_blindSafe_6}{RGB}{140,107,177}
+\definecolor{8_bupu_seq_blindSafe_7}{RGB}{136,65,157}
+\definecolor{8_bupu_seq_blindSafe_8}{RGB}{110,1,107}
+
+% 9-class seq – bupu
+\definecolor{9_bupu_seq_blindSafe_1}{RGB}{247,252,253}
+\definecolor{9_bupu_seq_blindSafe_2}{RGB}{224,236,244}
+\definecolor{9_bupu_seq_blindSafe_3}{RGB}{191,211,230}
+\definecolor{9_bupu_seq_blindSafe_4}{RGB}{158,188,218}
+\definecolor{9_bupu_seq_blindSafe_5}{RGB}{140,150,198}
+\definecolor{9_bupu_seq_blindSafe_6}{RGB}{140,107,177}
+\definecolor{9_bupu_seq_blindSafe_7}{RGB}{136,65,157}
+\definecolor{9_bupu_seq_blindSafe_8}{RGB}{129,15,124}
+\definecolor{9_bupu_seq_blindSafe_9}{RGB}{77,0,75}
+
+% 3-class seq – oranges
+\definecolor{3_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,230,206}
+\definecolor{3_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,174,107}
+\definecolor{3_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{230,85,13}
+
+% 4-class seq – oranges
+\definecolor{4_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,237,222}
+\definecolor{4_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{253,190,133}
+\definecolor{4_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{253,141,60}
+\definecolor{4_oranges_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{217,71,1}
+
+% 5-class seq – oranges
+\definecolor{5_oranges_seq_blindSafe_PhotoCopySafe_1}{RGB}{254,237,222}
+\definecolor{5_oranges_seq_blindSafe_PhotoCopySafe_2}{RGB}{253,190,133}
+\definecolor{5_oranges_seq_blindSafe_PhotoCopySafe_3}{RGB}{253,141,60}
+\definecolor{5_oranges_seq_blindSafe_PhotoCopySafe_4}{RGB}{230,85,13}
+\definecolor{5_oranges_seq_blindSafe_PhotoCopySafe_5}{RGB}{166,54,3}
+
+% 6-class seq – oranges
+\definecolor{6_oranges_seq_blindSafe_1}{RGB}{254,237,222}
+\definecolor{6_oranges_seq_blindSafe_2}{RGB}{253,208,162}
+\definecolor{6_oranges_seq_blindSafe_3}{RGB}{253,174,107}
+\definecolor{6_oranges_seq_blindSafe_4}{RGB}{253,141,60}
+\definecolor{6_oranges_seq_blindSafe_5}{RGB}{230,85,13}
+\definecolor{6_oranges_seq_blindSafe_6}{RGB}{166,54,3}
+
+% 7-class seq – oranges
+\definecolor{7_oranges_seq_blindSafe_1}{RGB}{254,237,222}
+\definecolor{7_oranges_seq_blindSafe_2}{RGB}{253,208,162}
+\definecolor{7_oranges_seq_blindSafe_3}{RGB}{253,174,107}
+\definecolor{7_oranges_seq_blindSafe_4}{RGB}{253,141,60}
+\definecolor{7_oranges_seq_blindSafe_5}{RGB}{241,105,19}
+\definecolor{7_oranges_seq_blindSafe_6}{RGB}{217,72,1}
+\definecolor{7_oranges_seq_blindSafe_7}{RGB}{140,45,4}
+
+% 8-class seq – oranges
+\definecolor{8_oranges_seq_blindSafe_1}{RGB}{255,245,235}
+\definecolor{8_oranges_seq_blindSafe_2}{RGB}{254,230,206}
+\definecolor{8_oranges_seq_blindSafe_3}{RGB}{253,208,162}
+\definecolor{8_oranges_seq_blindSafe_4}{RGB}{253,174,107}
+\definecolor{8_oranges_seq_blindSafe_5}{RGB}{253,141,60}
+\definecolor{8_oranges_seq_blindSafe_6}{RGB}{241,105,19}
+\definecolor{8_oranges_seq_blindSafe_7}{RGB}{217,72,1}
+\definecolor{8_oranges_seq_blindSafe_8}{RGB}{140,45,4}
+
+% 9-class seq – oranges
+\definecolor{9_oranges_seq_blindSafe_1}{RGB}{255,245,235}
+\definecolor{9_oranges_seq_blindSafe_2}{RGB}{254,230,206}
+\definecolor{9_oranges_seq_blindSafe_3}{RGB}{253,208,162}
+\definecolor{9_oranges_seq_blindSafe_4}{RGB}{253,174,107}
+\definecolor{9_oranges_seq_blindSafe_5}{RGB}{253,141,60}
+\definecolor{9_oranges_seq_blindSafe_6}{RGB}{241,105,19}
+\definecolor{9_oranges_seq_blindSafe_7}{RGB}{217,72,1}
+\definecolor{9_oranges_seq_blindSafe_8}{RGB}{166,54,3}
+\definecolor{9_oranges_seq_blindSafe_9}{RGB}{127,39,4}
+
+% 3-class seq – bugn
+\definecolor{3_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{229,245,249}
+\definecolor{3_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{153,216,201}
+\definecolor{3_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{44,162,95}
+
+% 4-class seq – bugn
+\definecolor{4_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{237,248,251}
+\definecolor{4_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{178,226,226}
+\definecolor{4_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{102,194,164}
+\definecolor{4_bugn_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{35,139,69}
+
+% 5-class seq – bugn
+\definecolor{5_bugn_seq_blindSafe_PrintSafe_1}{RGB}{237,248,251}
+\definecolor{5_bugn_seq_blindSafe_PrintSafe_2}{RGB}{178,226,226}
+\definecolor{5_bugn_seq_blindSafe_PrintSafe_3}{RGB}{102,194,164}
+\definecolor{5_bugn_seq_blindSafe_PrintSafe_4}{RGB}{44,162,95}
+\definecolor{5_bugn_seq_blindSafe_PrintSafe_5}{RGB}{0,109,44}
+
+% 6-class seq – bugn
+\definecolor{6_bugn_seq_blindSafe_1}{RGB}{237,248,251}
+\definecolor{6_bugn_seq_blindSafe_2}{RGB}{204,236,230}
+\definecolor{6_bugn_seq_blindSafe_3}{RGB}{153,216,201}
+\definecolor{6_bugn_seq_blindSafe_4}{RGB}{102,194,164}
+\definecolor{6_bugn_seq_blindSafe_5}{RGB}{44,162,95}
+\definecolor{6_bugn_seq_blindSafe_6}{RGB}{0,109,44}
+
+% 7-class seq – bugn
+\definecolor{7_bugn_seq_blindSafe_1}{RGB}{237,248,251}
+\definecolor{7_bugn_seq_blindSafe_2}{RGB}{204,236,230}
+\definecolor{7_bugn_seq_blindSafe_3}{RGB}{153,216,201}
+\definecolor{7_bugn_seq_blindSafe_4}{RGB}{102,194,164}
+\definecolor{7_bugn_seq_blindSafe_5}{RGB}{65,174,118}
+\definecolor{7_bugn_seq_blindSafe_6}{RGB}{35,139,69}
+\definecolor{7_bugn_seq_blindSafe_7}{RGB}{0,88,36}
+
+% 8-class seq – bugn
+\definecolor{8_bugn_seq_blindSafe_1}{RGB}{247,252,253}
+\definecolor{8_bugn_seq_blindSafe_2}{RGB}{229,245,249}
+\definecolor{8_bugn_seq_blindSafe_3}{RGB}{204,236,230}
+\definecolor{8_bugn_seq_blindSafe_4}{RGB}{153,216,201}
+\definecolor{8_bugn_seq_blindSafe_5}{RGB}{102,194,164}
+\definecolor{8_bugn_seq_blindSafe_6}{RGB}{65,174,118}
+\definecolor{8_bugn_seq_blindSafe_7}{RGB}{35,139,69}
+\definecolor{8_bugn_seq_blindSafe_8}{RGB}{0,88,36}
+
+% 9-class seq – bugn
+\definecolor{9_bugn_seq_blindSafe_1}{RGB}{247,252,253}
+\definecolor{9_bugn_seq_blindSafe_2}{RGB}{229,245,249}
+\definecolor{9_bugn_seq_blindSafe_3}{RGB}{204,236,230}
+\definecolor{9_bugn_seq_blindSafe_4}{RGB}{153,216,201}
+\definecolor{9_bugn_seq_blindSafe_5}{RGB}{102,194,164}
+\definecolor{9_bugn_seq_blindSafe_6}{RGB}{65,174,118}
+\definecolor{9_bugn_seq_blindSafe_7}{RGB}{35,139,69}
+\definecolor{9_bugn_seq_blindSafe_8}{RGB}{0,109,44}
+\definecolor{9_bugn_seq_blindSafe_9}{RGB}{0,68,27}
+
+% 3-class seq – ylorbr
+\definecolor{3_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,247,188}
+\definecolor{3_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{254,196,79}
+\definecolor{3_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{217,95,14}
+
+% 4-class seq – ylorbr
+\definecolor{4_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,255,212}
+\definecolor{4_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{254,217,142}
+\definecolor{4_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{254,153,41}
+\definecolor{4_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{204,76,2}
+
+% 5-class seq – ylorbr
+\definecolor{5_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,255,212}
+\definecolor{5_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{254,217,142}
+\definecolor{5_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{254,153,41}
+\definecolor{5_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{217,95,14}
+\definecolor{5_ylorbr_seq_blindSafe_PrintSafe_PhotoCopySafe_5}{RGB}{153,52,4}
+
+% 6-class seq – ylorbr
+\definecolor{6_ylorbr_seq_blindSafe_1}{RGB}{255,255,212}
+\definecolor{6_ylorbr_seq_blindSafe_2}{RGB}{254,227,145}
+\definecolor{6_ylorbr_seq_blindSafe_3}{RGB}{254,196,79}
+\definecolor{6_ylorbr_seq_blindSafe_4}{RGB}{254,153,41}
+\definecolor{6_ylorbr_seq_blindSafe_5}{RGB}{217,95,14}
+\definecolor{6_ylorbr_seq_blindSafe_6}{RGB}{153,52,4}
+
+% 7-class seq – ylorbr
+\definecolor{7_ylorbr_seq_blindSafe_1}{RGB}{255,255,212}
+\definecolor{7_ylorbr_seq_blindSafe_2}{RGB}{254,227,145}
+\definecolor{7_ylorbr_seq_blindSafe_3}{RGB}{254,196,79}
+\definecolor{7_ylorbr_seq_blindSafe_4}{RGB}{254,153,41}
+\definecolor{7_ylorbr_seq_blindSafe_5}{RGB}{236,112,20}
+\definecolor{7_ylorbr_seq_blindSafe_6}{RGB}{204,76,2}
+\definecolor{7_ylorbr_seq_blindSafe_7}{RGB}{140,45,4}
+
+% 8-class seq – ylorbr
+\definecolor{8_ylorbr_seq_blindSafe_1}{RGB}{255,255,229}
+\definecolor{8_ylorbr_seq_blindSafe_2}{RGB}{255,247,188}
+\definecolor{8_ylorbr_seq_blindSafe_3}{RGB}{254,227,145}
+\definecolor{8_ylorbr_seq_blindSafe_4}{RGB}{254,196,79}
+\definecolor{8_ylorbr_seq_blindSafe_5}{RGB}{254,153,41}
+\definecolor{8_ylorbr_seq_blindSafe_6}{RGB}{236,112,20}
+\definecolor{8_ylorbr_seq_blindSafe_7}{RGB}{204,76,2}
+\definecolor{8_ylorbr_seq_blindSafe_8}{RGB}{140,45,4}
+
+% 9-class seq – ylorbr
+\definecolor{9_ylorbr_seq_blindSafe_1}{RGB}{255,255,229}
+\definecolor{9_ylorbr_seq_blindSafe_2}{RGB}{255,247,188}
+\definecolor{9_ylorbr_seq_blindSafe_3}{RGB}{254,227,145}
+\definecolor{9_ylorbr_seq_blindSafe_4}{RGB}{254,196,79}
+\definecolor{9_ylorbr_seq_blindSafe_5}{RGB}{254,153,41}
+\definecolor{9_ylorbr_seq_blindSafe_6}{RGB}{236,112,20}
+\definecolor{9_ylorbr_seq_blindSafe_7}{RGB}{204,76,2}
+\definecolor{9_ylorbr_seq_blindSafe_8}{RGB}{153,52,4}
+\definecolor{9_ylorbr_seq_blindSafe_9}{RGB}{102,37,6}
+
+% 3-class seq – ylgn
+\definecolor{3_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{247,252,185}
+\definecolor{3_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{173,221,142}
+\definecolor{3_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{49,163,84}
+
+% 4-class seq – ylgn
+\definecolor{4_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,255,204}
+\definecolor{4_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{194,230,153}
+\definecolor{4_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{120,198,121}
+\definecolor{4_ylgn_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{35,132,67}
+
+% 5-class seq – ylgn
+\definecolor{5_ylgn_seq_blindSafe_PrintSafe_1}{RGB}{255,255,204}
+\definecolor{5_ylgn_seq_blindSafe_PrintSafe_2}{RGB}{194,230,153}
+\definecolor{5_ylgn_seq_blindSafe_PrintSafe_3}{RGB}{120,198,121}
+\definecolor{5_ylgn_seq_blindSafe_PrintSafe_4}{RGB}{49,163,84}
+\definecolor{5_ylgn_seq_blindSafe_PrintSafe_5}{RGB}{0,104,55}
+
+% 6-class seq – ylgn
+\definecolor{6_ylgn_seq_blindSafe_1}{RGB}{255,255,204}
+\definecolor{6_ylgn_seq_blindSafe_2}{RGB}{217,240,163}
+\definecolor{6_ylgn_seq_blindSafe_3}{RGB}{173,221,142}
+\definecolor{6_ylgn_seq_blindSafe_4}{RGB}{120,198,121}
+\definecolor{6_ylgn_seq_blindSafe_5}{RGB}{49,163,84}
+\definecolor{6_ylgn_seq_blindSafe_6}{RGB}{0,104,55}
+
+% 7-class seq – ylgn
+\definecolor{7_ylgn_seq_blindSafe_1}{RGB}{255,255,204}
+\definecolor{7_ylgn_seq_blindSafe_2}{RGB}{217,240,163}
+\definecolor{7_ylgn_seq_blindSafe_3}{RGB}{173,221,142}
+\definecolor{7_ylgn_seq_blindSafe_4}{RGB}{120,198,121}
+\definecolor{7_ylgn_seq_blindSafe_5}{RGB}{65,171,93}
+\definecolor{7_ylgn_seq_blindSafe_6}{RGB}{35,132,67}
+\definecolor{7_ylgn_seq_blindSafe_7}{RGB}{0,90,50}
+
+% 8-class seq – ylgn
+\definecolor{8_ylgn_seq_blindSafe_1}{RGB}{255,255,229}
+\definecolor{8_ylgn_seq_blindSafe_2}{RGB}{247,252,185}
+\definecolor{8_ylgn_seq_blindSafe_3}{RGB}{217,240,163}
+\definecolor{8_ylgn_seq_blindSafe_4}{RGB}{173,221,142}
+\definecolor{8_ylgn_seq_blindSafe_5}{RGB}{120,198,121}
+\definecolor{8_ylgn_seq_blindSafe_6}{RGB}{65,171,93}
+\definecolor{8_ylgn_seq_blindSafe_7}{RGB}{35,132,67}
+\definecolor{8_ylgn_seq_blindSafe_8}{RGB}{0,90,50}
+
+% 9-class seq – ylgn
+\definecolor{9_ylgn_seq_blindSafe_1}{RGB}{255,255,229}
+\definecolor{9_ylgn_seq_blindSafe_2}{RGB}{247,252,185}
+\definecolor{9_ylgn_seq_blindSafe_3}{RGB}{217,240,163}
+\definecolor{9_ylgn_seq_blindSafe_4}{RGB}{173,221,142}
+\definecolor{9_ylgn_seq_blindSafe_5}{RGB}{120,198,121}
+\definecolor{9_ylgn_seq_blindSafe_6}{RGB}{65,171,93}
+\definecolor{9_ylgn_seq_blindSafe_7}{RGB}{35,132,67}
+\definecolor{9_ylgn_seq_blindSafe_8}{RGB}{0,104,55}
+\definecolor{9_ylgn_seq_blindSafe_9}{RGB}{0,69,41}
+
+% 3-class seq – reds
+\definecolor{3_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,224,210}
+\definecolor{3_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{252,146,114}
+\definecolor{3_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{222,45,38}
+
+% 4-class seq – reds
+\definecolor{4_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,229,217}
+\definecolor{4_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{252,174,145}
+\definecolor{4_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{251,106,74}
+\definecolor{4_reds_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{203,24,29}
+
+% 5-class seq – reds
+\definecolor{5_reds_seq_blindSafe_PrintSafe_1}{RGB}{254,229,217}
+\definecolor{5_reds_seq_blindSafe_PrintSafe_2}{RGB}{252,174,145}
+\definecolor{5_reds_seq_blindSafe_PrintSafe_3}{RGB}{251,106,74}
+\definecolor{5_reds_seq_blindSafe_PrintSafe_4}{RGB}{222,45,38}
+\definecolor{5_reds_seq_blindSafe_PrintSafe_5}{RGB}{165,15,21}
+
+% 6-class seq – reds
+\definecolor{6_reds_seq_blindSafe_1}{RGB}{254,229,217}
+\definecolor{6_reds_seq_blindSafe_2}{RGB}{252,187,161}
+\definecolor{6_reds_seq_blindSafe_3}{RGB}{252,146,114}
+\definecolor{6_reds_seq_blindSafe_4}{RGB}{251,106,74}
+\definecolor{6_reds_seq_blindSafe_5}{RGB}{222,45,38}
+\definecolor{6_reds_seq_blindSafe_6}{RGB}{165,15,21}
+
+% 7-class seq – reds
+\definecolor{7_reds_seq_blindSafe_1}{RGB}{254,229,217}
+\definecolor{7_reds_seq_blindSafe_2}{RGB}{252,187,161}
+\definecolor{7_reds_seq_blindSafe_3}{RGB}{252,146,114}
+\definecolor{7_reds_seq_blindSafe_4}{RGB}{251,106,74}
+\definecolor{7_reds_seq_blindSafe_5}{RGB}{239,59,44}
+\definecolor{7_reds_seq_blindSafe_6}{RGB}{203,24,29}
+\definecolor{7_reds_seq_blindSafe_7}{RGB}{153,0,13}
+
+% 8-class seq – reds
+\definecolor{8_reds_seq_blindSafe_1}{RGB}{255,245,240}
+\definecolor{8_reds_seq_blindSafe_2}{RGB}{254,224,210}
+\definecolor{8_reds_seq_blindSafe_3}{RGB}{252,187,161}
+\definecolor{8_reds_seq_blindSafe_4}{RGB}{252,146,114}
+\definecolor{8_reds_seq_blindSafe_5}{RGB}{251,106,74}
+\definecolor{8_reds_seq_blindSafe_6}{RGB}{239,59,44}
+\definecolor{8_reds_seq_blindSafe_7}{RGB}{203,24,29}
+\definecolor{8_reds_seq_blindSafe_8}{RGB}{153,0,13}
+
+% 9-class seq – reds
+\definecolor{9_reds_seq_blindSafe_1}{RGB}{255,245,240}
+\definecolor{9_reds_seq_blindSafe_2}{RGB}{254,224,210}
+\definecolor{9_reds_seq_blindSafe_3}{RGB}{252,187,161}
+\definecolor{9_reds_seq_blindSafe_4}{RGB}{252,146,114}
+\definecolor{9_reds_seq_blindSafe_5}{RGB}{251,106,74}
+\definecolor{9_reds_seq_blindSafe_6}{RGB}{239,59,44}
+\definecolor{9_reds_seq_blindSafe_7}{RGB}{203,24,29}
+\definecolor{9_reds_seq_blindSafe_8}{RGB}{165,15,21}
+\definecolor{9_reds_seq_blindSafe_9}{RGB}{103,0,13}
+
+% 3-class seq – rdpu
+\definecolor{3_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{253,224,221}
+\definecolor{3_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{250,159,181}
+\definecolor{3_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{197,27,138}
+
+% 4-class seq – rdpu
+\definecolor{4_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{254,235,226}
+\definecolor{4_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{251,180,185}
+\definecolor{4_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{247,104,161}
+\definecolor{4_rdpu_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{174,1,126}
+
+% 5-class seq – rdpu
+\definecolor{5_rdpu_seq_blindSafe_PrintSafe_1}{RGB}{254,235,226}
+\definecolor{5_rdpu_seq_blindSafe_PrintSafe_2}{RGB}{251,180,185}
+\definecolor{5_rdpu_seq_blindSafe_PrintSafe_3}{RGB}{247,104,161}
+\definecolor{5_rdpu_seq_blindSafe_PrintSafe_4}{RGB}{197,27,138}
+\definecolor{5_rdpu_seq_blindSafe_PrintSafe_5}{RGB}{122,1,119}
+
+% 6-class seq – rdpu
+\definecolor{6_rdpu_seq_blindSafe_PrintSafe_1}{RGB}{254,235,226}
+\definecolor{6_rdpu_seq_blindSafe_PrintSafe_2}{RGB}{252,197,192}
+\definecolor{6_rdpu_seq_blindSafe_PrintSafe_3}{RGB}{250,159,181}
+\definecolor{6_rdpu_seq_blindSafe_PrintSafe_4}{RGB}{247,104,161}
+\definecolor{6_rdpu_seq_blindSafe_PrintSafe_5}{RGB}{197,27,138}
+\definecolor{6_rdpu_seq_blindSafe_PrintSafe_6}{RGB}{122,1,119}
+
+% 7-class seq – rdpu
+\definecolor{7_rdpu_seq_blindSafe_1}{RGB}{254,235,226}
+\definecolor{7_rdpu_seq_blindSafe_2}{RGB}{252,197,192}
+\definecolor{7_rdpu_seq_blindSafe_3}{RGB}{250,159,181}
+\definecolor{7_rdpu_seq_blindSafe_4}{RGB}{247,104,161}
+\definecolor{7_rdpu_seq_blindSafe_5}{RGB}{221,52,151}
+\definecolor{7_rdpu_seq_blindSafe_6}{RGB}{174,1,126}
+\definecolor{7_rdpu_seq_blindSafe_7}{RGB}{122,1,119}
+
+% 8-class seq – rdpu
+\definecolor{8_rdpu_seq_blindSafe_1}{RGB}{255,247,243}
+\definecolor{8_rdpu_seq_blindSafe_2}{RGB}{253,224,221}
+\definecolor{8_rdpu_seq_blindSafe_3}{RGB}{252,197,192}
+\definecolor{8_rdpu_seq_blindSafe_4}{RGB}{250,159,181}
+\definecolor{8_rdpu_seq_blindSafe_5}{RGB}{247,104,161}
+\definecolor{8_rdpu_seq_blindSafe_6}{RGB}{221,52,151}
+\definecolor{8_rdpu_seq_blindSafe_7}{RGB}{174,1,126}
+\definecolor{8_rdpu_seq_blindSafe_8}{RGB}{122,1,119}
+
+% 9-class seq – rdpu
+\definecolor{9_rdpu_seq_blindSafe_1}{RGB}{255,247,243}
+\definecolor{9_rdpu_seq_blindSafe_2}{RGB}{253,224,221}
+\definecolor{9_rdpu_seq_blindSafe_3}{RGB}{252,197,192}
+\definecolor{9_rdpu_seq_blindSafe_4}{RGB}{250,159,181}
+\definecolor{9_rdpu_seq_blindSafe_5}{RGB}{247,104,161}
+\definecolor{9_rdpu_seq_blindSafe_6}{RGB}{221,52,151}
+\definecolor{9_rdpu_seq_blindSafe_7}{RGB}{174,1,126}
+\definecolor{9_rdpu_seq_blindSafe_8}{RGB}{122,1,119}
+\definecolor{9_rdpu_seq_blindSafe_9}{RGB}{73,0,106}
+
+% 3-class seq – greens
+\definecolor{3_greens_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{229,245,224}
+\definecolor{3_greens_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{161,217,155}
+\definecolor{3_greens_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{49,163,84}
+
+% 4-class seq – greens
+\definecolor{4_greens_seq_blindSafe_PhotoCopySafe_1}{RGB}{237,248,233}
+\definecolor{4_greens_seq_blindSafe_PhotoCopySafe_2}{RGB}{186,228,179}
+\definecolor{4_greens_seq_blindSafe_PhotoCopySafe_3}{RGB}{116,196,118}
+\definecolor{4_greens_seq_blindSafe_PhotoCopySafe_4}{RGB}{35,139,69}
+
+% 5-class seq – greens
+\definecolor{5_greens_seq_blindSafe_1}{RGB}{237,248,233}
+\definecolor{5_greens_seq_blindSafe_2}{RGB}{186,228,179}
+\definecolor{5_greens_seq_blindSafe_3}{RGB}{116,196,118}
+\definecolor{5_greens_seq_blindSafe_4}{RGB}{49,163,84}
+\definecolor{5_greens_seq_blindSafe_5}{RGB}{0,109,44}
+
+% 6-class seq – greens
+\definecolor{6_greens_seq_blindSafe_1}{RGB}{237,248,233}
+\definecolor{6_greens_seq_blindSafe_2}{RGB}{199,233,192}
+\definecolor{6_greens_seq_blindSafe_3}{RGB}{161,217,155}
+\definecolor{6_greens_seq_blindSafe_4}{RGB}{116,196,118}
+\definecolor{6_greens_seq_blindSafe_5}{RGB}{49,163,84}
+\definecolor{6_greens_seq_blindSafe_6}{RGB}{0,109,44}
+
+% 7-class seq – greens
+\definecolor{7_greens_seq_blindSafe_1}{RGB}{237,248,233}
+\definecolor{7_greens_seq_blindSafe_2}{RGB}{199,233,192}
+\definecolor{7_greens_seq_blindSafe_3}{RGB}{161,217,155}
+\definecolor{7_greens_seq_blindSafe_4}{RGB}{116,196,118}
+\definecolor{7_greens_seq_blindSafe_5}{RGB}{65,171,93}
+\definecolor{7_greens_seq_blindSafe_6}{RGB}{35,139,69}
+\definecolor{7_greens_seq_blindSafe_7}{RGB}{0,90,50}
+
+% 8-class seq – greens
+\definecolor{8_greens_seq_blindSafe_1}{RGB}{247,252,245}
+\definecolor{8_greens_seq_blindSafe_2}{RGB}{229,245,224}
+\definecolor{8_greens_seq_blindSafe_3}{RGB}{199,233,192}
+\definecolor{8_greens_seq_blindSafe_4}{RGB}{161,217,155}
+\definecolor{8_greens_seq_blindSafe_5}{RGB}{116,196,118}
+\definecolor{8_greens_seq_blindSafe_6}{RGB}{65,171,93}
+\definecolor{8_greens_seq_blindSafe_7}{RGB}{35,139,69}
+\definecolor{8_greens_seq_blindSafe_8}{RGB}{0,90,50}
+
+% 9-class seq – greens
+\definecolor{9_greens_seq_blindSafe_1}{RGB}{247,252,245}
+\definecolor{9_greens_seq_blindSafe_2}{RGB}{229,245,224}
+\definecolor{9_greens_seq_blindSafe_3}{RGB}{199,233,192}
+\definecolor{9_greens_seq_blindSafe_4}{RGB}{161,217,155}
+\definecolor{9_greens_seq_blindSafe_5}{RGB}{116,196,118}
+\definecolor{9_greens_seq_blindSafe_6}{RGB}{65,171,93}
+\definecolor{9_greens_seq_blindSafe_7}{RGB}{35,139,69}
+\definecolor{9_greens_seq_blindSafe_8}{RGB}{0,109,44}
+\definecolor{9_greens_seq_blindSafe_9}{RGB}{0,68,27}
+
+% 3-class seq – ylgnbu
+\definecolor{3_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{237,248,177}
+\definecolor{3_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{127,205,187}
+\definecolor{3_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{44,127,184}
+
+% 4-class seq – ylgnbu
+\definecolor{4_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,255,204}
+\definecolor{4_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{161,218,180}
+\definecolor{4_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{65,182,196}
+\definecolor{4_ylgnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{34,94,168}
+
+% 5-class seq – ylgnbu
+\definecolor{5_ylgnbu_seq_blindSafe_PrintSafe_1}{RGB}{255,255,204}
+\definecolor{5_ylgnbu_seq_blindSafe_PrintSafe_2}{RGB}{161,218,180}
+\definecolor{5_ylgnbu_seq_blindSafe_PrintSafe_3}{RGB}{65,182,196}
+\definecolor{5_ylgnbu_seq_blindSafe_PrintSafe_4}{RGB}{44,127,184}
+\definecolor{5_ylgnbu_seq_blindSafe_PrintSafe_5}{RGB}{37,52,148}
+
+% 6-class seq – ylgnbu
+\definecolor{6_ylgnbu_seq_blindSafe_PrintSafe_1}{RGB}{255,255,204}
+\definecolor{6_ylgnbu_seq_blindSafe_PrintSafe_2}{RGB}{199,233,180}
+\definecolor{6_ylgnbu_seq_blindSafe_PrintSafe_3}{RGB}{127,205,187}
+\definecolor{6_ylgnbu_seq_blindSafe_PrintSafe_4}{RGB}{65,182,196}
+\definecolor{6_ylgnbu_seq_blindSafe_PrintSafe_5}{RGB}{44,127,184}
+\definecolor{6_ylgnbu_seq_blindSafe_PrintSafe_6}{RGB}{37,52,148}
+
+% 7-class seq – ylgnbu
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_1}{RGB}{255,255,204}
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_2}{RGB}{199,233,180}
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_3}{RGB}{127,205,187}
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_4}{RGB}{65,182,196}
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_5}{RGB}{29,145,192}
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_6}{RGB}{34,94,168}
+\definecolor{7_ylgnbu_seq_blindSafe_PrintSafe_7}{RGB}{12,44,132}
+
+% 8-class seq – ylgnbu
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_1}{RGB}{255,255,217}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_2}{RGB}{237,248,177}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_3}{RGB}{199,233,180}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_4}{RGB}{127,205,187}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_5}{RGB}{65,182,196}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_6}{RGB}{29,145,192}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_7}{RGB}{34,94,168}
+\definecolor{8_ylgnbu_seq_blindSafe_PrintSafe_8}{RGB}{12,44,132}
+
+% 9-class seq – ylgnbu
+\definecolor{9_ylgnbu_seq_blindSafe_1}{RGB}{255,255,217}
+\definecolor{9_ylgnbu_seq_blindSafe_2}{RGB}{237,248,177}
+\definecolor{9_ylgnbu_seq_blindSafe_3}{RGB}{199,233,180}
+\definecolor{9_ylgnbu_seq_blindSafe_4}{RGB}{127,205,187}
+\definecolor{9_ylgnbu_seq_blindSafe_5}{RGB}{65,182,196}
+\definecolor{9_ylgnbu_seq_blindSafe_6}{RGB}{29,145,192}
+\definecolor{9_ylgnbu_seq_blindSafe_7}{RGB}{34,94,168}
+\definecolor{9_ylgnbu_seq_blindSafe_8}{RGB}{37,52,148}
+\definecolor{9_ylgnbu_seq_blindSafe_9}{RGB}{8,29,88}
+
+% 3-class seq – purples
+\definecolor{3_purples_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{239,237,245}
+\definecolor{3_purples_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{188,189,220}
+\definecolor{3_purples_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{117,107,177}
+
+% 4-class seq – purples
+\definecolor{4_purples_seq_blindSafe_PhotoCopySafe_1}{RGB}{242,240,247}
+\definecolor{4_purples_seq_blindSafe_PhotoCopySafe_2}{RGB}{203,201,226}
+\definecolor{4_purples_seq_blindSafe_PhotoCopySafe_3}{RGB}{158,154,200}
+\definecolor{4_purples_seq_blindSafe_PhotoCopySafe_4}{RGB}{106,81,163}
+
+% 5-class seq – purples
+\definecolor{5_purples_seq_blindSafe_1}{RGB}{242,240,247}
+\definecolor{5_purples_seq_blindSafe_2}{RGB}{203,201,226}
+\definecolor{5_purples_seq_blindSafe_3}{RGB}{158,154,200}
+\definecolor{5_purples_seq_blindSafe_4}{RGB}{117,107,177}
+\definecolor{5_purples_seq_blindSafe_5}{RGB}{84,39,143}
+
+% 6-class seq – purples
+\definecolor{6_purples_seq_blindSafe_1}{RGB}{242,240,247}
+\definecolor{6_purples_seq_blindSafe_2}{RGB}{218,218,235}
+\definecolor{6_purples_seq_blindSafe_3}{RGB}{188,189,220}
+\definecolor{6_purples_seq_blindSafe_4}{RGB}{158,154,200}
+\definecolor{6_purples_seq_blindSafe_5}{RGB}{117,107,177}
+\definecolor{6_purples_seq_blindSafe_6}{RGB}{84,39,143}
+
+% 7-class seq – purples
+\definecolor{7_purples_seq_blindSafe_1}{RGB}{242,240,247}
+\definecolor{7_purples_seq_blindSafe_2}{RGB}{218,218,235}
+\definecolor{7_purples_seq_blindSafe_3}{RGB}{188,189,220}
+\definecolor{7_purples_seq_blindSafe_4}{RGB}{158,154,200}
+\definecolor{7_purples_seq_blindSafe_5}{RGB}{128,125,186}
+\definecolor{7_purples_seq_blindSafe_6}{RGB}{106,81,163}
+\definecolor{7_purples_seq_blindSafe_7}{RGB}{74,20,134}
+
+% 8-class seq – purples
+\definecolor{8_purples_seq_blindSafe_1}{RGB}{252,251,253}
+\definecolor{8_purples_seq_blindSafe_2}{RGB}{239,237,245}
+\definecolor{8_purples_seq_blindSafe_3}{RGB}{218,218,235}
+\definecolor{8_purples_seq_blindSafe_4}{RGB}{188,189,220}
+\definecolor{8_purples_seq_blindSafe_5}{RGB}{158,154,200}
+\definecolor{8_purples_seq_blindSafe_6}{RGB}{128,125,186}
+\definecolor{8_purples_seq_blindSafe_7}{RGB}{106,81,163}
+\definecolor{8_purples_seq_blindSafe_8}{RGB}{74,20,134}
+
+% 9-class seq – purples
+\definecolor{9_purples_seq_blindSafe_1}{RGB}{252,251,253}
+\definecolor{9_purples_seq_blindSafe_2}{RGB}{239,237,245}
+\definecolor{9_purples_seq_blindSafe_3}{RGB}{218,218,235}
+\definecolor{9_purples_seq_blindSafe_4}{RGB}{188,189,220}
+\definecolor{9_purples_seq_blindSafe_5}{RGB}{158,154,200}
+\definecolor{9_purples_seq_blindSafe_6}{RGB}{128,125,186}
+\definecolor{9_purples_seq_blindSafe_7}{RGB}{106,81,163}
+\definecolor{9_purples_seq_blindSafe_8}{RGB}{84,39,143}
+\definecolor{9_purples_seq_blindSafe_9}{RGB}{63,0,125}
+
+% 3-class seq – gnbu
+\definecolor{3_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{224,243,219}
+\definecolor{3_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{168,221,181}
+\definecolor{3_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{67,162,202}
+
+% 4-class seq – gnbu
+\definecolor{4_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{240,249,232}
+\definecolor{4_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{186,228,188}
+\definecolor{4_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{123,204,196}
+\definecolor{4_gnbu_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{43,140,190}
+
+% 5-class seq – gnbu
+\definecolor{5_gnbu_seq_blindSafe_PrintSafe_1}{RGB}{240,249,232}
+\definecolor{5_gnbu_seq_blindSafe_PrintSafe_2}{RGB}{186,228,188}
+\definecolor{5_gnbu_seq_blindSafe_PrintSafe_3}{RGB}{123,204,196}
+\definecolor{5_gnbu_seq_blindSafe_PrintSafe_4}{RGB}{67,162,202}
+\definecolor{5_gnbu_seq_blindSafe_PrintSafe_5}{RGB}{8,104,172}
+
+% 6-class seq – gnbu
+\definecolor{6_gnbu_seq_blindSafe_PrintSafe_1}{RGB}{240,249,232}
+\definecolor{6_gnbu_seq_blindSafe_PrintSafe_2}{RGB}{204,235,197}
+\definecolor{6_gnbu_seq_blindSafe_PrintSafe_3}{RGB}{168,221,181}
+\definecolor{6_gnbu_seq_blindSafe_PrintSafe_4}{RGB}{123,204,196}
+\definecolor{6_gnbu_seq_blindSafe_PrintSafe_5}{RGB}{67,162,202}
+\definecolor{6_gnbu_seq_blindSafe_PrintSafe_6}{RGB}{8,104,172}
+
+% 7-class seq – gnbu
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_1}{RGB}{240,249,232}
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_2}{RGB}{204,235,197}
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_3}{RGB}{168,221,181}
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_4}{RGB}{123,204,196}
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_5}{RGB}{78,179,211}
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_6}{RGB}{43,140,190}
+\definecolor{7_gnbu_seq_blindSafe_PrintSafe_7}{RGB}{8,88,158}
+
+% 8-class seq – gnbu
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_1}{RGB}{247,252,240}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_2}{RGB}{224,243,219}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_3}{RGB}{204,235,197}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_4}{RGB}{168,221,181}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_5}{RGB}{123,204,196}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_6}{RGB}{78,179,211}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_7}{RGB}{43,140,190}
+\definecolor{8_gnbu_seq_blindSafe_PrintSafe_8}{RGB}{8,88,158}
+
+% 9-class seq – gnbu
+\definecolor{9_gnbu_seq_blindSafe_1}{RGB}{247,252,240}
+\definecolor{9_gnbu_seq_blindSafe_2}{RGB}{224,243,219}
+\definecolor{9_gnbu_seq_blindSafe_3}{RGB}{204,235,197}
+\definecolor{9_gnbu_seq_blindSafe_4}{RGB}{168,221,181}
+\definecolor{9_gnbu_seq_blindSafe_5}{RGB}{123,204,196}
+\definecolor{9_gnbu_seq_blindSafe_6}{RGB}{78,179,211}
+\definecolor{9_gnbu_seq_blindSafe_7}{RGB}{43,140,190}
+\definecolor{9_gnbu_seq_blindSafe_8}{RGB}{8,104,172}
+\definecolor{9_gnbu_seq_blindSafe_9}{RGB}{8,64,129}
+
+% 3-class seq – greys
+\definecolor{3_greys_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{240,240,240}
+\definecolor{3_greys_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{189,189,189}
+\definecolor{3_greys_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{99,99,99}
+
+% 4-class seq – greys
+\definecolor{4_greys_seq_blindSafe_PrintSafe_1}{RGB}{247,247,247}
+\definecolor{4_greys_seq_blindSafe_PrintSafe_2}{RGB}{204,204,204}
+\definecolor{4_greys_seq_blindSafe_PrintSafe_3}{RGB}{150,150,150}
+\definecolor{4_greys_seq_blindSafe_PrintSafe_4}{RGB}{82,82,82}
+
+% 5-class seq – greys
+\definecolor{5_greys_seq_blindSafe_PrintSafe_1}{RGB}{247,247,247}
+\definecolor{5_greys_seq_blindSafe_PrintSafe_2}{RGB}{204,204,204}
+\definecolor{5_greys_seq_blindSafe_PrintSafe_3}{RGB}{150,150,150}
+\definecolor{5_greys_seq_blindSafe_PrintSafe_4}{RGB}{99,99,99}
+\definecolor{5_greys_seq_blindSafe_PrintSafe_5}{RGB}{37,37,37}
+
+% 6-class seq – greys
+\definecolor{6_greys_seq_blindSafe_1}{RGB}{247,247,247}
+\definecolor{6_greys_seq_blindSafe_2}{RGB}{217,217,217}
+\definecolor{6_greys_seq_blindSafe_3}{RGB}{189,189,189}
+\definecolor{6_greys_seq_blindSafe_4}{RGB}{150,150,150}
+\definecolor{6_greys_seq_blindSafe_5}{RGB}{99,99,99}
+\definecolor{6_greys_seq_blindSafe_6}{RGB}{37,37,37}
+
+% 7-class seq – greys
+\definecolor{7_greys_seq_blindSafe_1}{RGB}{247,247,247}
+\definecolor{7_greys_seq_blindSafe_2}{RGB}{217,217,217}
+\definecolor{7_greys_seq_blindSafe_3}{RGB}{189,189,189}
+\definecolor{7_greys_seq_blindSafe_4}{RGB}{150,150,150}
+\definecolor{7_greys_seq_blindSafe_5}{RGB}{115,115,115}
+\definecolor{7_greys_seq_blindSafe_6}{RGB}{82,82,82}
+\definecolor{7_greys_seq_blindSafe_7}{RGB}{37,37,37}
+
+% 8-class seq – greys
+\definecolor{8_greys_seq_blindSafe_1}{RGB}{255,255,255}
+\definecolor{8_greys_seq_blindSafe_2}{RGB}{240,240,240}
+\definecolor{8_greys_seq_blindSafe_3}{RGB}{217,217,217}
+\definecolor{8_greys_seq_blindSafe_4}{RGB}{189,189,189}
+\definecolor{8_greys_seq_blindSafe_5}{RGB}{150,150,150}
+\definecolor{8_greys_seq_blindSafe_6}{RGB}{115,115,115}
+\definecolor{8_greys_seq_blindSafe_7}{RGB}{82,82,82}
+\definecolor{8_greys_seq_blindSafe_8}{RGB}{37,37,37}
+
+% 9-class seq – greys
+\definecolor{9_greys_seq_blindSafe_1}{RGB}{255,255,255}
+\definecolor{9_greys_seq_blindSafe_2}{RGB}{240,240,240}
+\definecolor{9_greys_seq_blindSafe_3}{RGB}{217,217,217}
+\definecolor{9_greys_seq_blindSafe_4}{RGB}{189,189,189}
+\definecolor{9_greys_seq_blindSafe_5}{RGB}{150,150,150}
+\definecolor{9_greys_seq_blindSafe_6}{RGB}{115,115,115}
+\definecolor{9_greys_seq_blindSafe_7}{RGB}{82,82,82}
+\definecolor{9_greys_seq_blindSafe_8}{RGB}{37,37,37}
+\definecolor{9_greys_seq_blindSafe_9}{RGB}{0,0,0}
+
+% 3-class seq – ylorrd
+\definecolor{3_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,237,160}
+\definecolor{3_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{254,178,76}
+\definecolor{3_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{240,59,32}
+
+% 4-class seq – ylorrd
+\definecolor{4_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,255,178}
+\definecolor{4_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{254,204,92}
+\definecolor{4_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{253,141,60}
+\definecolor{4_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{227,26,28}
+
+% 5-class seq – ylorrd
+\definecolor{5_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{255,255,178}
+\definecolor{5_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{254,204,92}
+\definecolor{5_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{253,141,60}
+\definecolor{5_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{240,59,32}
+\definecolor{5_ylorrd_seq_blindSafe_PrintSafe_PhotoCopySafe_5}{RGB}{189,0,38}
+
+% 6-class seq – ylorrd
+\definecolor{6_ylorrd_seq_blindSafe_PrintSafe_1}{RGB}{255,255,178}
+\definecolor{6_ylorrd_seq_blindSafe_PrintSafe_2}{RGB}{254,217,118}
+\definecolor{6_ylorrd_seq_blindSafe_PrintSafe_3}{RGB}{254,178,76}
+\definecolor{6_ylorrd_seq_blindSafe_PrintSafe_4}{RGB}{253,141,60}
+\definecolor{6_ylorrd_seq_blindSafe_PrintSafe_5}{RGB}{240,59,32}
+\definecolor{6_ylorrd_seq_blindSafe_PrintSafe_6}{RGB}{189,0,38}
+
+% 7-class seq – ylorrd
+\definecolor{7_ylorrd_seq_blindSafe_1}{RGB}{255,255,178}
+\definecolor{7_ylorrd_seq_blindSafe_2}{RGB}{254,217,118}
+\definecolor{7_ylorrd_seq_blindSafe_3}{RGB}{254,178,76}
+\definecolor{7_ylorrd_seq_blindSafe_4}{RGB}{253,141,60}
+\definecolor{7_ylorrd_seq_blindSafe_5}{RGB}{252,78,42}
+\definecolor{7_ylorrd_seq_blindSafe_6}{RGB}{227,26,28}
+\definecolor{7_ylorrd_seq_blindSafe_7}{RGB}{177,0,38}
+
+% 8-class seq – ylorrd
+\definecolor{8_ylorrd_seq_blindSafe_1}{RGB}{255,255,204}
+\definecolor{8_ylorrd_seq_blindSafe_2}{RGB}{255,237,160}
+\definecolor{8_ylorrd_seq_blindSafe_3}{RGB}{254,217,118}
+\definecolor{8_ylorrd_seq_blindSafe_4}{RGB}{254,178,76}
+\definecolor{8_ylorrd_seq_blindSafe_5}{RGB}{253,141,60}
+\definecolor{8_ylorrd_seq_blindSafe_6}{RGB}{252,78,42}
+\definecolor{8_ylorrd_seq_blindSafe_7}{RGB}{227,26,28}
+\definecolor{8_ylorrd_seq_blindSafe_8}{RGB}{177,0,38}
+
+% 9-class seq – ylorrd
+\definecolor{9_ylorrd_seq_blindSafe_1}{RGB}{255,255,204}
+\definecolor{9_ylorrd_seq_blindSafe_2}{RGB}{255,237,160}
+\definecolor{9_ylorrd_seq_blindSafe_3}{RGB}{254,217,118}
+\definecolor{9_ylorrd_seq_blindSafe_4}{RGB}{254,178,76}
+\definecolor{9_ylorrd_seq_blindSafe_5}{RGB}{253,141,60}
+\definecolor{9_ylorrd_seq_blindSafe_6}{RGB}{252,78,42}
+\definecolor{9_ylorrd_seq_blindSafe_7}{RGB}{227,26,28}
+\definecolor{9_ylorrd_seq_blindSafe_8}{RGB}{189,0,38}
+\definecolor{9_ylorrd_seq_blindSafe_9}{RGB}{128,0,38}
+
+% 3-class seq – purd
+\definecolor{3_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{231,225,239}
+\definecolor{3_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{201,148,199}
+\definecolor{3_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{221,28,119}
+
+% 4-class seq – purd
+\definecolor{4_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{241,238,246}
+\definecolor{4_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{215,181,216}
+\definecolor{4_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{223,101,176}
+\definecolor{4_purd_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{206,18,86}
+
+% 5-class seq – purd
+\definecolor{5_purd_seq_blindSafe_PrintSafe_1}{RGB}{241,238,246}
+\definecolor{5_purd_seq_blindSafe_PrintSafe_2}{RGB}{215,181,216}
+\definecolor{5_purd_seq_blindSafe_PrintSafe_3}{RGB}{223,101,176}
+\definecolor{5_purd_seq_blindSafe_PrintSafe_4}{RGB}{221,28,119}
+\definecolor{5_purd_seq_blindSafe_PrintSafe_5}{RGB}{152,0,67}
+
+% 6-class seq – purd
+\definecolor{6_purd_seq_blindSafe_1}{RGB}{241,238,246}
+\definecolor{6_purd_seq_blindSafe_2}{RGB}{212,185,218}
+\definecolor{6_purd_seq_blindSafe_3}{RGB}{201,148,199}
+\definecolor{6_purd_seq_blindSafe_4}{RGB}{223,101,176}
+\definecolor{6_purd_seq_blindSafe_5}{RGB}{221,28,119}
+\definecolor{6_purd_seq_blindSafe_6}{RGB}{152,0,67}
+
+% 7-class seq – purd
+\definecolor{7_purd_seq_blindSafe_1}{RGB}{241,238,246}
+\definecolor{7_purd_seq_blindSafe_2}{RGB}{212,185,218}
+\definecolor{7_purd_seq_blindSafe_3}{RGB}{201,148,199}
+\definecolor{7_purd_seq_blindSafe_4}{RGB}{223,101,176}
+\definecolor{7_purd_seq_blindSafe_5}{RGB}{231,41,138}
+\definecolor{7_purd_seq_blindSafe_6}{RGB}{206,18,86}
+\definecolor{7_purd_seq_blindSafe_7}{RGB}{145,0,63}
+
+% 8-class seq – purd
+\definecolor{8_purd_seq_blindSafe_1}{RGB}{247,244,249}
+\definecolor{8_purd_seq_blindSafe_2}{RGB}{231,225,239}
+\definecolor{8_purd_seq_blindSafe_3}{RGB}{212,185,218}
+\definecolor{8_purd_seq_blindSafe_4}{RGB}{201,148,199}
+\definecolor{8_purd_seq_blindSafe_5}{RGB}{223,101,176}
+\definecolor{8_purd_seq_blindSafe_6}{RGB}{231,41,138}
+\definecolor{8_purd_seq_blindSafe_7}{RGB}{206,18,86}
+\definecolor{8_purd_seq_blindSafe_8}{RGB}{145,0,63}
+
+% 9-class seq – purd
+\definecolor{9_purd_seq_blindSafe_1}{RGB}{247,244,249}
+\definecolor{9_purd_seq_blindSafe_2}{RGB}{231,225,239}
+\definecolor{9_purd_seq_blindSafe_3}{RGB}{212,185,218}
+\definecolor{9_purd_seq_blindSafe_4}{RGB}{201,148,199}
+\definecolor{9_purd_seq_blindSafe_5}{RGB}{223,101,176}
+\definecolor{9_purd_seq_blindSafe_6}{RGB}{231,41,138}
+\definecolor{9_purd_seq_blindSafe_7}{RGB}{206,18,86}
+\definecolor{9_purd_seq_blindSafe_8}{RGB}{152,0,67}
+\definecolor{9_purd_seq_blindSafe_9}{RGB}{103,0,31}
+
+% 3-class seq – blues
+\definecolor{3_blues_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{222,235,247}
+\definecolor{3_blues_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{158,202,225}
+\definecolor{3_blues_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{49,130,189}
+
+% 4-class seq – blues
+\definecolor{4_blues_seq_blindSafe_PrintSafe_1}{RGB}{239,243,255}
+\definecolor{4_blues_seq_blindSafe_PrintSafe_2}{RGB}{189,215,231}
+\definecolor{4_blues_seq_blindSafe_PrintSafe_3}{RGB}{107,174,214}
+\definecolor{4_blues_seq_blindSafe_PrintSafe_4}{RGB}{33,113,181}
+
+% 5-class seq – blues
+\definecolor{5_blues_seq_blindSafe_1}{RGB}{239,243,255}
+\definecolor{5_blues_seq_blindSafe_2}{RGB}{189,215,231}
+\definecolor{5_blues_seq_blindSafe_3}{RGB}{107,174,214}
+\definecolor{5_blues_seq_blindSafe_4}{RGB}{49,130,189}
+\definecolor{5_blues_seq_blindSafe_5}{RGB}{8,81,156}
+
+% 6-class seq – blues
+\definecolor{6_blues_seq_blindSafe_1}{RGB}{239,243,255}
+\definecolor{6_blues_seq_blindSafe_2}{RGB}{198,219,239}
+\definecolor{6_blues_seq_blindSafe_3}{RGB}{158,202,225}
+\definecolor{6_blues_seq_blindSafe_4}{RGB}{107,174,214}
+\definecolor{6_blues_seq_blindSafe_5}{RGB}{49,130,189}
+\definecolor{6_blues_seq_blindSafe_6}{RGB}{8,81,156}
+
+% 7-class seq – blues
+\definecolor{7_blues_seq_blindSafe_1}{RGB}{239,243,255}
+\definecolor{7_blues_seq_blindSafe_2}{RGB}{198,219,239}
+\definecolor{7_blues_seq_blindSafe_3}{RGB}{158,202,225}
+\definecolor{7_blues_seq_blindSafe_4}{RGB}{107,174,214}
+\definecolor{7_blues_seq_blindSafe_5}{RGB}{66,146,198}
+\definecolor{7_blues_seq_blindSafe_6}{RGB}{33,113,181}
+\definecolor{7_blues_seq_blindSafe_7}{RGB}{8,69,148}
+
+% 8-class seq – blues
+\definecolor{8_blues_seq_blindSafe_1}{RGB}{247,251,255}
+\definecolor{8_blues_seq_blindSafe_2}{RGB}{222,235,247}
+\definecolor{8_blues_seq_blindSafe_3}{RGB}{198,219,239}
+\definecolor{8_blues_seq_blindSafe_4}{RGB}{158,202,225}
+\definecolor{8_blues_seq_blindSafe_5}{RGB}{107,174,214}
+\definecolor{8_blues_seq_blindSafe_6}{RGB}{66,146,198}
+\definecolor{8_blues_seq_blindSafe_7}{RGB}{33,113,181}
+\definecolor{8_blues_seq_blindSafe_8}{RGB}{8,69,148}
+
+% 9-class seq – blues
+\definecolor{9_blues_seq_blindSafe_1}{RGB}{247,251,255}
+\definecolor{9_blues_seq_blindSafe_2}{RGB}{222,235,247}
+\definecolor{9_blues_seq_blindSafe_3}{RGB}{198,219,239}
+\definecolor{9_blues_seq_blindSafe_4}{RGB}{158,202,225}
+\definecolor{9_blues_seq_blindSafe_5}{RGB}{107,174,214}
+\definecolor{9_blues_seq_blindSafe_6}{RGB}{66,146,198}
+\definecolor{9_blues_seq_blindSafe_7}{RGB}{33,113,181}
+\definecolor{9_blues_seq_blindSafe_8}{RGB}{8,81,156}
+\definecolor{9_blues_seq_blindSafe_9}{RGB}{8,48,107}
+
+% 3-class seq – pubugn
+\definecolor{3_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{236,226,240}
+\definecolor{3_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{166,189,219}
+\definecolor{3_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{28,144,153}
+
+% 4-class seq – pubugn
+\definecolor{4_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_1}{RGB}{246,239,247}
+\definecolor{4_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_2}{RGB}{189,201,225}
+\definecolor{4_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_3}{RGB}{103,169,207}
+\definecolor{4_pubugn_seq_blindSafe_PrintSafe_PhotoCopySafe_4}{RGB}{2,129,138}
+
+% 5-class seq – pubugn
+\definecolor{5_pubugn_seq_blindSafe_PrintSafe_1}{RGB}{246,239,247}
+\definecolor{5_pubugn_seq_blindSafe_PrintSafe_2}{RGB}{189,201,225}
+\definecolor{5_pubugn_seq_blindSafe_PrintSafe_3}{RGB}{103,169,207}
+\definecolor{5_pubugn_seq_blindSafe_PrintSafe_4}{RGB}{28,144,153}
+\definecolor{5_pubugn_seq_blindSafe_PrintSafe_5}{RGB}{1,108,89}
+
+% 6-class seq – pubugn
+\definecolor{6_pubugn_seq_blindSafe_1}{RGB}{246,239,247}
+\definecolor{6_pubugn_seq_blindSafe_2}{RGB}{208,209,230}
+\definecolor{6_pubugn_seq_blindSafe_3}{RGB}{166,189,219}
+\definecolor{6_pubugn_seq_blindSafe_4}{RGB}{103,169,207}
+\definecolor{6_pubugn_seq_blindSafe_5}{RGB}{28,144,153}
+\definecolor{6_pubugn_seq_blindSafe_6}{RGB}{1,108,89}
+
+% 7-class seq – pubugn
+\definecolor{7_pubugn_seq_blindSafe_1}{RGB}{246,239,247}
+\definecolor{7_pubugn_seq_blindSafe_2}{RGB}{208,209,230}
+\definecolor{7_pubugn_seq_blindSafe_3}{RGB}{166,189,219}
+\definecolor{7_pubugn_seq_blindSafe_4}{RGB}{103,169,207}
+\definecolor{7_pubugn_seq_blindSafe_5}{RGB}{54,144,192}
+\definecolor{7_pubugn_seq_blindSafe_6}{RGB}{2,129,138}
+\definecolor{7_pubugn_seq_blindSafe_7}{RGB}{1,100,80}
+
+% 8-class seq – pubugn
+\definecolor{8_pubugn_seq_blindSafe_1}{RGB}{255,247,251}
+\definecolor{8_pubugn_seq_blindSafe_2}{RGB}{236,226,240}
+\definecolor{8_pubugn_seq_blindSafe_3}{RGB}{208,209,230}
+\definecolor{8_pubugn_seq_blindSafe_4}{RGB}{166,189,219}
+\definecolor{8_pubugn_seq_blindSafe_5}{RGB}{103,169,207}
+\definecolor{8_pubugn_seq_blindSafe_6}{RGB}{54,144,192}
+\definecolor{8_pubugn_seq_blindSafe_7}{RGB}{2,129,138}
+\definecolor{8_pubugn_seq_blindSafe_8}{RGB}{1,100,80}
+
+% 9-class seq – pubugn
+\definecolor{9_pubugn_seq_blindSafe_1}{RGB}{255,247,251}
+\definecolor{9_pubugn_seq_blindSafe_2}{RGB}{236,226,240}
+\definecolor{9_pubugn_seq_blindSafe_3}{RGB}{208,209,230}
+\definecolor{9_pubugn_seq_blindSafe_4}{RGB}{166,189,219}
+\definecolor{9_pubugn_seq_blindSafe_5}{RGB}{103,169,207}
+\definecolor{9_pubugn_seq_blindSafe_6}{RGB}{54,144,192}
+\definecolor{9_pubugn_seq_blindSafe_7}{RGB}{2,129,138}
+\definecolor{9_pubugn_seq_blindSafe_8}{RGB}{1,108,89}
+\definecolor{9_pubugn_seq_blindSafe_9}{RGB}{1,70,54}
